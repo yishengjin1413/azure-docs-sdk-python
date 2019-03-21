@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MethodReponseAction
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.SendMessageAction
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.SubscribeAction
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.TransportAction
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.UnsubscribeAction
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  name: mqtt_transport
+  source:
+    id: mqtt_transport
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 0
+  type: module
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+references:
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  isExternal: false
+  name: MQTTTransport
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MethodReponseAction
+  isExternal: false
+  name: MethodReponseAction
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MethodReponseAction
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.SendMessageAction
+  isExternal: false
+  name: SendMessageAction
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.SendMessageAction
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.SubscribeAction
+  isExternal: false
+  name: SubscribeAction
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.SubscribeAction
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.TransportAction
+  isExternal: false
+  name: TransportAction
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.TransportAction
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.UnsubscribeAction
+  isExternal: false
+  name: UnsubscribeAction
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.UnsubscribeAction

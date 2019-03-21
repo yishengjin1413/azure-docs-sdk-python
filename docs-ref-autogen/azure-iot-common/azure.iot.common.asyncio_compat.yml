@@ -1,0 +1,125 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.common.asyncio_compat.create_future
+  - azure.iot.common.asyncio_compat.create_task
+  - azure.iot.common.asyncio_compat.get_running_loop
+  fullName: azure.iot.common.asyncio_compat
+  langs:
+  - python
+  module: azure.iot.common.asyncio_compat
+  name: asyncio_compat
+  source:
+    id: asyncio_compat
+    path: azure-iot-common\azure\iot\common\asyncio_compat.py
+    remote:
+      branch: master
+      path: azure-iot-common\azure\iot\common\asyncio_compat.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 0
+  summary: This module contains compatibility tools for bridging different versions
+    of asyncio
+  type: module
+  uid: azure.iot.common.asyncio_compat
+- fullName: azure.iot.common.asyncio_compat.create_future
+  langs:
+  - python
+  module: azure.iot.common.asyncio_compat
+  name: create_future(loop)
+  source:
+    id: create_future
+    path: azure-iot-common\azure\iot\common\asyncio_compat.py
+    remote:
+      branch: master
+      path: azure-iot-common\azure\iot\common\asyncio_compat.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 42
+  summary: 'Creates a Future object.
+
+
+    Uses loop.create_future if it is available. Otherwise, create the object directly.
+
+
+    Use of loop.create_future is preferred because it allows third parties to provide
+    their own
+
+    Future object, but it is only available in 3.5.2+'
+  syntax:
+    content: create_future(loop)
+    parameters:
+    - id: loop
+    return:
+      description: A new Future object.
+  type: function
+  uid: azure.iot.common.asyncio_compat.create_future
+- fullName: azure.iot.common.asyncio_compat.create_task
+  langs:
+  - python
+  module: azure.iot.common.asyncio_compat
+  name: create_task(coro)
+  source:
+    id: create_task
+    path: azure-iot-common\azure\iot\common\asyncio_compat.py
+    remote:
+      branch: master
+      path: azure-iot-common\azure\iot\common\asyncio_compat.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 26
+  summary: 'Creates a Task object.
+
+
+    If avaialable (Python 3.7+), use asyncio.create_task, which is preferred as it
+    is
+
+    more specific for the goal of immediately scheduling a task from a coroutine.
+    If
+
+    not available, use the more general puprose asyncio.ensure_future.'
+  syntax:
+    content: create_task(coro)
+    parameters:
+    - id: coro
+    return:
+      description: A new Task object.
+  type: function
+  uid: azure.iot.common.asyncio_compat.create_task
+- fullName: azure.iot.common.asyncio_compat.get_running_loop
+  langs:
+  - python
+  module: azure.iot.common.asyncio_compat
+  name: get_running_loop()
+  source:
+    id: get_running_loop
+    path: azure-iot-common\azure\iot\common\asyncio_compat.py
+    remote:
+      branch: master
+      path: azure-iot-common\azure\iot\common\asyncio_compat.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 11
+  summary: 'Gets the currently running event loop
+
+
+    Uses asyncio.get_running_loop() if available (Python 3.7+) or a backported
+
+    version of the same function in 3.5/3.6.'
+  syntax:
+    content: get_running_loop()
+  type: function
+  uid: azure.iot.common.asyncio_compat.get_running_loop
+references:
+- fullName: azure.iot.common.asyncio_compat.create_future
+  isExternal: false
+  name: create_future(loop)
+  parent: azure.iot.common.asyncio_compat
+  uid: azure.iot.common.asyncio_compat.create_future
+- fullName: azure.iot.common.asyncio_compat.create_task
+  isExternal: false
+  name: create_task(coro)
+  parent: azure.iot.common.asyncio_compat
+  uid: azure.iot.common.asyncio_compat.create_task
+- fullName: azure.iot.common.asyncio_compat.get_running_loop
+  isExternal: false
+  name: get_running_loop()
+  parent: azure.iot.common.asyncio_compat
+  uid: azure.iot.common.asyncio_compat.get_running_loop

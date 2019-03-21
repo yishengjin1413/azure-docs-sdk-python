@@ -1,0 +1,227 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.connect
+  - azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.disable_feature
+  - azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.disconnect
+  - azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.enable_feature
+  - azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.send_event
+  - azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.send_method_response
+  - azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.send_output_event
+  class: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  fullName: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.abstract_transport
+  name: AbstractTransport
+  source:
+    id: AbstractTransport
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 13
+  summary: All specific transport will follow implementations of this abstract class.
+  syntax:
+    content: AbstractTransport(auth_provider)
+  type: class
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+- class: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  fullName: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.connect
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.abstract_transport
+  name: connect(callback)
+  source:
+    id: connect
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 22
+  summary: Connect to the specific messaging system used by the specific transport
+    protocol
+  syntax:
+    content: connect(callback)
+    parameters:
+    - id: callback
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.connect
+- class: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  fullName: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.disable_feature
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.abstract_transport
+  name: disable_feature(feature_name, callback=None)
+  source:
+    id: disable_feature
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 43
+  summary: Disable a specific feature (c2d, input, etc.)
+  syntax:
+    content: disable_feature(feature_name, callback=None)
+    parameters:
+    - id: feature_name
+    - defaultValue: None
+      id: callback
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.disable_feature
+- class: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  fullName: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.disconnect
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.abstract_transport
+  name: disconnect(callback)
+  source:
+    id: disconnect
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 29
+  summary: Disconnect from the specific messaging system used by the specific transport
+    protocol
+  syntax:
+    content: disconnect(callback)
+    parameters:
+    - id: callback
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.disconnect
+- class: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  fullName: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.enable_feature
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.abstract_transport
+  name: enable_feature(feature_name, callback=None)
+  source:
+    id: enable_feature
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 36
+  summary: Enable a specific feature (c2d, input, etc.)
+  syntax:
+    content: enable_feature(feature_name, callback=None)
+    parameters:
+    - id: feature_name
+    - defaultValue: None
+      id: callback
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.enable_feature
+- class: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  fullName: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.send_event
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.abstract_transport
+  name: send_event(event, callback)
+  source:
+    id: send_event
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 50
+  summary: Send some telemetry, event or message.
+  syntax:
+    content: send_event(event, callback)
+    parameters:
+    - id: event
+    - id: callback
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.send_event
+- class: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  fullName: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.send_method_response
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.abstract_transport
+  name: send_method_response(method, payload, status, callback=None)
+  source:
+    id: send_method_response
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 65
+  summary: Send a method response.
+  syntax:
+    content: send_method_response(method, payload, status, callback=None)
+    parameters:
+    - id: method
+    - id: payload
+    - id: status
+    - defaultValue: None
+      id: callback
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.send_method_response
+- class: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  fullName: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.send_output_event
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.abstract_transport
+  name: send_output_event(event, callback)
+  source:
+    id: send_output_event
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 57
+  summary: Send some event or message to a specific output
+  syntax:
+    content: send_output_event(event, callback)
+    parameters:
+    - id: event
+    - id: callback
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.send_output_event
+references:
+- fullName: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.connect
+  isExternal: false
+  name: connect(callback)
+  parent: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.connect
+- fullName: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.disable_feature
+  isExternal: false
+  name: disable_feature(feature_name, callback=None)
+  parent: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.disable_feature
+- fullName: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.disconnect
+  isExternal: false
+  name: disconnect(callback)
+  parent: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.disconnect
+- fullName: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.enable_feature
+  isExternal: false
+  name: enable_feature(feature_name, callback=None)
+  parent: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.enable_feature
+- fullName: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.send_event
+  isExternal: false
+  name: send_event(event, callback)
+  parent: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.send_event
+- fullName: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.send_method_response
+  isExternal: false
+  name: send_method_response(method, payload, status, callback=None)
+  parent: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.send_method_response
+- fullName: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.send_output_event
+  isExternal: false
+  name: send_output_event(event, callback)
+  parent: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport.send_output_event

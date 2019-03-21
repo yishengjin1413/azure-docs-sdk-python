@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.common.sastoken.SasToken
+  - azure.iot.common.sastoken.SasTokenError
+  fullName: azure.iot.common.sastoken
+  langs:
+  - python
+  module: azure.iot.common.sastoken
+  name: sastoken
+  source:
+    id: sastoken
+    path: azure-iot-common\azure\iot\common\sastoken.py
+    remote:
+      branch: master
+      path: azure-iot-common\azure\iot\common\sastoken.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 0
+  summary: This module contains tools for working with Shared Access Signature (SAS)
+    Tokens
+  type: module
+  uid: azure.iot.common.sastoken
+references:
+- fullName: azure.iot.common.sastoken.SasToken
+  isExternal: false
+  name: SasToken
+  parent: azure.iot.common.sastoken
+  uid: azure.iot.common.sastoken.SasToken
+- fullName: azure.iot.common.sastoken.SasTokenError
+  isExternal: false
+  name: SasTokenError
+  parent: azure.iot.common.sastoken
+  uid: azure.iot.common.sastoken.SasTokenError

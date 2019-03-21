@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.hub.devicesdk.sync_inbox.InboxEmpty
+  fullName: azure.iot.hub.devicesdk.sync_inbox.InboxEmpty
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: builtins.BaseException
+    type: builtins.Exception
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.sync_inbox
+  name: InboxEmpty
+  source:
+    id: InboxEmpty
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\sync_inbox.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\sync_inbox.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 13
+  syntax: {}
+  type: class
+  uid: azure.iot.hub.devicesdk.sync_inbox.InboxEmpty
+references: []

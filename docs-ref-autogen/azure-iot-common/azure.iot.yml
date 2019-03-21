@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.common
+  fullName: azure.iot
+  kind: import
+  langs:
+  - python
+  module: azure.iot
+  name: iot
+  source:
+    id: iot
+    path: azure-iot-common\azure\iot\__init__.py
+    remote:
+      branch: master
+      path: azure-iot-common\azure\iot\__init__.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 0
+  type: package
+  uid: azure.iot
+references:
+- fullName: azure.iot.common
+  isExternal: false
+  name: common
+  parent: azure.iot
+  uid: azure.iot.common

@@ -1,0 +1,99 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider.get_current_sas_token
+  - azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider.parse
+  class: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider
+  fullName: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.auth.authentication_provider
+  name: AuthenticationProvider
+  source:
+    id: AuthenticationProvider
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\authentication_provider.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\authentication_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 12
+  summary: 'Super class for all providing known types of authentication mechanism
+    like
+
+    x509 and SAS based authentication.'
+  syntax:
+    content: AuthenticationProvider(hostname, device_id, module_id=None)
+    variables:
+    - description: Hostname
+      id: hostname
+      type:
+      - str
+    - description: Device ID
+      id: device_id
+      type:
+      - str
+    - description: Module ID
+      id: module_id
+      type:
+      - str
+  type: class
+  uid: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider
+- class: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider
+  fullName: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider.get_current_sas_token
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.auth.authentication_provider
+  name: get_current_sas_token()
+  source:
+    id: get_current_sas_token
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\authentication_provider.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\authentication_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 32
+  summary: Get the current SharedAuthenticationSignature string.
+  syntax:
+    content: get_current_sas_token()
+    parameters: []
+  type: method
+  uid: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider.get_current_sas_token
+- class: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider
+  fullName: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider.parse
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.auth.authentication_provider
+  name: parse(source)
+  source:
+    id: parse
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\authentication_provider.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\authentication_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 39
+  summary: 'Method needs to be implemented as static method in child authentications
+    providers.
+
+    :param:source The source in string. This could be connections string or a shared
+    access signature string.'
+  syntax:
+    content: parse(source)
+    parameters:
+    - id: source
+  type: method
+  uid: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider.parse
+references:
+- fullName: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider.get_current_sas_token
+  isExternal: false
+  name: get_current_sas_token()
+  parent: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider
+  uid: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider.get_current_sas_token
+- fullName: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider.parse
+  isExternal: false
+  name: parse(source)
+  parent: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider
+  uid: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider.parse

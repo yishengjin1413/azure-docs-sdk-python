@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.common.sastoken.SasTokenError
+  fullName: azure.iot.common.sastoken.SasTokenError
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: builtins.BaseException
+    type: builtins.Exception
+  langs:
+  - python
+  module: azure.iot.common.sastoken
+  name: SasTokenError
+  source:
+    id: SasTokenError
+    path: azure-iot-common\azure\iot\common\sastoken.py
+    remote:
+      branch: master
+      path: azure-iot-common\azure\iot\common\sastoken.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 17
+  summary: Error in SasToken
+  syntax:
+    content: SasTokenError(message, cause=None)
+  type: class
+  uid: azure.iot.common.sastoken.SasTokenError
+references: []

@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.common.async_adapter.AwaitableCallback
+  - azure.iot.common.async_adapter.emulate_async
+  fullName: azure.iot.common.async_adapter
+  langs:
+  - python
+  module: azure.iot.common.async_adapter
+  name: async_adapter
+  source:
+    id: async_adapter
+    path: azure-iot-common\azure\iot\common\async_adapter.py
+    remote:
+      branch: master
+      path: azure-iot-common\azure\iot\common\async_adapter.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 0
+  summary: This module contains tools for adapting sync code for use in async coroutines.
+  type: module
+  uid: azure.iot.common.async_adapter
+- fullName: azure.iot.common.async_adapter.emulate_async
+  langs:
+  - python
+  module: azure.iot.common.async_adapter
+  name: emulate_async(fn)
+  source:
+    id: emulate_async
+    path: azure-iot-common\azure\iot\common\async_adapter.py
+    remote:
+      branch: master
+      path: azure-iot-common\azure\iot\common\async_adapter.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 12
+  summary: 'Apply as a decorator to emulate async behavior with a sync function/method
+
+    via usage of multithreading.'
+  syntax:
+    content: emulate_async(fn)
+    parameters:
+    - description: The sync function to be run in async.
+      id: fn
+    return:
+      description: A coroutine function that will call the given sync function.
+  type: function
+  uid: azure.iot.common.async_adapter.emulate_async
+references:
+- fullName: azure.iot.common.async_adapter.AwaitableCallback
+  isExternal: false
+  name: AwaitableCallback
+  parent: azure.iot.common.async_adapter
+  uid: azure.iot.common.async_adapter.AwaitableCallback
+- fullName: azure.iot.common.async_adapter.emulate_async
+  isExternal: false
+  name: emulate_async(fn)
+  parent: azure.iot.common.async_adapter
+  uid: azure.iot.common.async_adapter.emulate_async

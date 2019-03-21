@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.common.connection_string.ConnectionString
+  fullName: azure.iot.common.connection_string
+  langs:
+  - python
+  module: azure.iot.common.connection_string
+  name: connection_string
+  source:
+    id: connection_string
+    path: azure-iot-common\azure\iot\common\connection_string.py
+    remote:
+      branch: master
+      path: azure-iot-common\azure\iot\common\connection_string.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 0
+  summary: This module contains tools for working with Connection Strings
+  type: module
+  uid: azure.iot.common.connection_string
+references:
+- fullName: azure.iot.common.connection_string.ConnectionString
+  isExternal: false
+  name: ConnectionString
+  parent: azure.iot.common.connection_string
+  uid: azure.iot.common.connection_string.ConnectionString

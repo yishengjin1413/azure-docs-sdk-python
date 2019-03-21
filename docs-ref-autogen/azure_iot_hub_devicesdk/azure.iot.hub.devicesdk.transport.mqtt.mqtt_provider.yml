@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
+  name: mqtt_provider
+  source:
+    id: mqtt_provider
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_provider.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 0
+  type: module
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
+references:
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+  isExternal: false
+  name: MQTTProvider
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider

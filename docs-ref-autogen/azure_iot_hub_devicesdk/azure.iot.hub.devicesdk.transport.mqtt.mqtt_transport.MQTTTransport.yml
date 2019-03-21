@@ -1,0 +1,243 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.connect
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.disable_feature
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.disconnect
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.enable_feature
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.send_event
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.send_method_response
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.send_output_event
+  class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  name: MQTTTransport
+  source:
+    id: MQTTTransport
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 138
+  summary: ''
+  syntax:
+    content: MQTTTransport(auth_provider)
+  type: class
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+- class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.connect
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  name: connect(callback=None)
+  source:
+    id: connect
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 565
+  summary: Connect to the service.
+  syntax:
+    content: connect(callback=None)
+    parameters:
+    - defaultValue: None
+      description: callback which is called when the connection to the service is
+        complete.
+      id: callback
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.connect
+- class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.disable_feature
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  name: disable_feature(feature_name, callback=None)
+  source:
+    id: disable_feature
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 630
+  summary: 'Disable the given feature by subscribing to the appropriate topics.
+
+    :param callback: callback which is called when the feature is disabled'
+  syntax:
+    content: disable_feature(feature_name, callback=None)
+    parameters:
+    - description: one of the feature name constants from constant.py
+      id: feature_name
+    - defaultValue: None
+      id: callback
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.disable_feature
+- class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.disconnect
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  name: disconnect(callback=None)
+  source:
+    id: disconnect
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 575
+  summary: Disconnect from the service.
+  syntax:
+    content: disconnect(callback=None)
+    parameters:
+    - defaultValue: None
+      description: callback which is called when the connection to the service has
+        been disconnected
+      id: callback
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.disconnect
+- class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.enable_feature
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  name: enable_feature(feature_name, callback=None)
+  source:
+    id: enable_feature
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 612
+  summary: Enable the given feature by subscribing to the appropriate topics.
+  syntax:
+    content: enable_feature(feature_name, callback=None)
+    parameters:
+    - description: one of the feature name constants from constant.py
+      id: feature_name
+    - defaultValue: None
+      description: callback which is called when the feature is enabled
+      id: callback
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.enable_feature
+- class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.send_event
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  name: send_event(message, callback=None)
+  source:
+    id: send_event
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 585
+  summary: Send a telemetry message to the service.
+  syntax:
+    content: send_event(message, callback=None)
+    parameters:
+    - description: callback which is called when the message publish has been acknowledged
+        by the service.
+      id: callback
+    - defaultValue: None
+      id: callback
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.send_event
+- class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.send_method_response
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  name: send_method_response(method, payload, status, callback=None)
+  source:
+    id: send_method_response
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 603
+  syntax:
+    content: send_method_response(method, payload, status, callback=None)
+    parameters:
+    - id: method
+    - id: payload
+    - id: status
+    - defaultValue: None
+      id: callback
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.send_method_response
+- class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.send_output_event
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  name: send_output_event(message, callback=None)
+  source:
+    id: send_output_event
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 594
+  summary: Send an output message to the service.
+  syntax:
+    content: send_output_event(message, callback=None)
+    parameters:
+    - description: callback which is called when the message publish has been acknowledged
+        by the service.
+      id: callback
+    - defaultValue: None
+      id: callback
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.send_output_event
+references:
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.connect
+  isExternal: false
+  name: connect(callback=None)
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.connect
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.disable_feature
+  isExternal: false
+  name: disable_feature(feature_name, callback=None)
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.disable_feature
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.disconnect
+  isExternal: false
+  name: disconnect(callback=None)
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.disconnect
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.enable_feature
+  isExternal: false
+  name: enable_feature(feature_name, callback=None)
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.enable_feature
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.send_event
+  isExternal: false
+  name: send_event(message, callback=None)
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.send_event
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.send_method_response
+  isExternal: false
+  name: send_method_response(method, payload, status, callback=None)
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.send_method_response
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.send_output_event
+  isExternal: false
+  name: send_output_event(message, callback=None)
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport.send_output_event

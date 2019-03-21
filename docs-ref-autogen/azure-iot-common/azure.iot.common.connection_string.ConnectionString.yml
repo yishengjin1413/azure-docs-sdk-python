@@ -1,0 +1,65 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.common.connection_string.ConnectionString.get
+  class: azure.iot.common.connection_string.ConnectionString
+  fullName: azure.iot.common.connection_string.ConnectionString
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.common.connection_string
+  name: ConnectionString
+  source:
+    id: ConnectionString
+    path: azure-iot-common\azure\iot\common\connection_string.py
+    remote:
+      branch: master
+      path: azure-iot-common\azure\iot\common\connection_string.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 63
+  summary: 'Key/value mappings for connection details.
+
+    Uses the same syntax as dictionary'
+  syntax:
+    content: ConnectionString(connection_string)
+  type: class
+  uid: azure.iot.common.connection_string.ConnectionString
+- class: azure.iot.common.connection_string.ConnectionString
+  fullName: azure.iot.common.connection_string.ConnectionString.get
+  langs:
+  - python
+  module: azure.iot.common.connection_string
+  name: get(key, default=None)
+  source:
+    id: get
+    path: azure-iot-common\azure\iot\common\connection_string.py
+    remote:
+      branch: master
+      path: azure-iot-common\azure\iot\common\connection_string.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 83
+  summary: Return the value for key if key is in the dictionary, else default
+  syntax:
+    content: get(key, default=None)
+    parameters:
+    - description: The key to retrieve a value for
+      id: key
+      type:
+      - str
+    - defaultValue: None
+      description: The default value returned if a key is not found
+      id: default
+      type:
+      - str
+    return:
+      description: The value for the given key
+  type: method
+  uid: azure.iot.common.connection_string.ConnectionString.get
+references:
+- fullName: azure.iot.common.connection_string.ConnectionString.get
+  isExternal: false
+  name: get(key, default=None)
+  parent: azure.iot.common.connection_string.ConnectionString
+  uid: azure.iot.common.connection_string.ConnectionString.get

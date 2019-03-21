@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.common.async_adapter.AwaitableCallback.completion
+  class: azure.iot.common.async_adapter.AwaitableCallback
+  fullName: azure.iot.common.async_adapter.AwaitableCallback
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.common.async_adapter
+  name: AwaitableCallback
+  source:
+    id: AwaitableCallback
+    path: azure-iot-common\azure\iot\common\async_adapter.py
+    remote:
+      branch: master
+      path: azure-iot-common\azure\iot\common\async_adapter.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 30
+  summary: A sync callback whose completion can be waited upon.
+  syntax:
+    content: AwaitableCallback(callback)
+  type: class
+  uid: azure.iot.common.async_adapter.AwaitableCallback
+- class: azure.iot.common.async_adapter.AwaitableCallback
+  fullName: azure.iot.common.async_adapter.AwaitableCallback.completion
+  langs:
+  - python
+  module: azure.iot.common.async_adapter
+  name: completion()
+  source:
+    id: completion
+    path: azure-iot-common\azure\iot\common\async_adapter.py
+    remote:
+      branch: master
+      path: azure-iot-common\azure\iot\common\async_adapter.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 56
+  summary: 'Awaitable coroutine method that will return once the AwaitableCallback
+
+    has been completed.'
+  syntax:
+    content: completion()
+    parameters: []
+    return:
+      description: Result of the callback when it was called.
+  type: method
+  uid: azure.iot.common.async_adapter.AwaitableCallback.completion
+references:
+- fullName: azure.iot.common.async_adapter.AwaitableCallback.completion
+  isExternal: false
+  name: completion()
+  parent: azure.iot.common.async_adapter.AwaitableCallback
+  uid: azure.iot.common.async_adapter.AwaitableCallback.completion

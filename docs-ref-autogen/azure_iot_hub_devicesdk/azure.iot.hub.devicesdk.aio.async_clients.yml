@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.aio.async_clients.DeviceClient
+  - azure.iot.hub.devicesdk.aio.async_clients.ModuleClient
+  fullName: azure.iot.hub.devicesdk.aio.async_clients
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.aio.async_clients
+  name: async_clients
+  source:
+    id: async_clients
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\aio\async_clients.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\aio\async_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 0
+  summary: 'This module contains user-facing asynchronous clients for the
+
+    Azure IoTHub Device SDK for Python.'
+  type: module
+  uid: azure.iot.hub.devicesdk.aio.async_clients
+references:
+- fullName: azure.iot.hub.devicesdk.aio.async_clients.DeviceClient
+  isExternal: false
+  name: DeviceClient
+  parent: azure.iot.hub.devicesdk.aio.async_clients
+  uid: azure.iot.hub.devicesdk.aio.async_clients.DeviceClient
+- fullName: azure.iot.hub.devicesdk.aio.async_clients.ModuleClient
+  isExternal: false
+  name: ModuleClient
+  parent: azure.iot.hub.devicesdk.aio.async_clients
+  uid: azure.iot.hub.devicesdk.aio.async_clients.ModuleClient

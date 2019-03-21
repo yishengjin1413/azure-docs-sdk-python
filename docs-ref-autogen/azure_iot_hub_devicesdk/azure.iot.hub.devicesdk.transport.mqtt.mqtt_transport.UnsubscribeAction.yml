@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.UnsubscribeAction
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.UnsubscribeAction
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.TransportAction
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  name: UnsubscribeAction
+  source:
+    id: UnsubscribeAction
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 118
+  summary: TransportAction object used to unsubscribe from a specific MQTT topic
+  syntax:
+    content: UnsubscribeAction(topic, callback)
+  type: class
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.UnsubscribeAction
+references: []

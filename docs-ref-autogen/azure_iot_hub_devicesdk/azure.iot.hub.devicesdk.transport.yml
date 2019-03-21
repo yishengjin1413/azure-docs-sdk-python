@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.transport.abstract_transport
+  - azure.iot.hub.devicesdk.transport.constant
+  - azure.iot.hub.devicesdk.transport.amqp
+  - azure.iot.hub.devicesdk.transport.mqtt
+  fullName: azure.iot.hub.devicesdk.transport
+  kind: import
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport
+  name: transport
+  source:
+    id: transport
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\__init__.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\__init__.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 0
+  summary: 'Azure IoT Hub Device SDK Transport
+
+
+
+    This package provides transports for use with the Azure IoT Hub Device SDK.
+
+    INTERNAL USAGE ONLY'
+  type: package
+  uid: azure.iot.hub.devicesdk.transport
+references:
+- fullName: azure.iot.hub.devicesdk.transport.abstract_transport
+  isExternal: false
+  name: abstract_transport
+  parent: azure.iot.hub.devicesdk.transport
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport
+- fullName: azure.iot.hub.devicesdk.transport.constant
+  isExternal: false
+  name: constant
+  parent: azure.iot.hub.devicesdk.transport
+  uid: azure.iot.hub.devicesdk.transport.constant
+- fullName: azure.iot.hub.devicesdk.transport.amqp
+  isExternal: false
+  name: amqp
+  parent: azure.iot.hub.devicesdk.transport
+  uid: azure.iot.hub.devicesdk.transport.amqp
+- fullName: azure.iot.hub.devicesdk.transport.mqtt
+  isExternal: false
+  name: mqtt
+  parent: azure.iot.hub.devicesdk.transport
+  uid: azure.iot.hub.devicesdk.transport.mqtt

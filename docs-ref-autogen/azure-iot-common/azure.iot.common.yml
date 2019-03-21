@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.common.async_adapter
+  - azure.iot.common.asyncio_compat
+  - azure.iot.common.connection_string
+  - azure.iot.common.sastoken
+  fullName: azure.iot.common
+  kind: import
+  langs:
+  - python
+  module: azure.iot.common
+  name: common
+  source:
+    id: common
+    path: azure-iot-common\azure\iot\common\__init__.py
+    remote:
+      branch: master
+      path: azure-iot-common\azure\iot\common\__init__.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 0
+  summary: 'Azure IoT Common
+
+
+
+    This package provides shared modules for use with various Azure IoT products.'
+  type: package
+  uid: azure.iot.common
+references:
+- fullName: azure.iot.common.async_adapter
+  isExternal: false
+  name: async_adapter
+  parent: azure.iot.common
+  uid: azure.iot.common.async_adapter
+- fullName: azure.iot.common.asyncio_compat
+  isExternal: false
+  name: asyncio_compat
+  parent: azure.iot.common
+  uid: azure.iot.common.asyncio_compat
+- fullName: azure.iot.common.connection_string
+  isExternal: false
+  name: connection_string
+  parent: azure.iot.common
+  uid: azure.iot.common.connection_string
+- fullName: azure.iot.common.sastoken
+  isExternal: false
+  name: sastoken
+  parent: azure.iot.common
+  uid: azure.iot.common.sastoken

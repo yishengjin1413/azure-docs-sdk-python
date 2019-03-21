@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.SendMessageAction
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.SendMessageAction
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.TransportAction
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  name: SendMessageAction
+  source:
+    id: SendMessageAction
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 96
+  summary: 'TransportAction object used to send a telemetry message or an
+
+    output message'
+  syntax:
+    content: SendMessageAction(message, callback)
+  type: class
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.SendMessageAction
+references: []

@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot
+  fullName: azure
+  kind: import
+  langs:
+  - python
+  module: azure
+  name: azure
+  source:
+    id: azure
+    path: azure-iot-hub-devicesdk\azure\__init__.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\__init__.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview.git
+    startLine: 0
+  type: package
+  uid: azure
+references:
+- fullName: azure.iot
+  isExternal: false
+  name: iot
+  parent: azure
+  uid: azure.iot
