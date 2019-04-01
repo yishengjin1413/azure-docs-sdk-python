@@ -358,7 +358,6 @@
       uid: azure.python.sdk.landingPage.services.IoT.DeviceClient
       landingPageType: Service
       children:
-      - 'azure-iot-common*'
       - 'azure_iot_hub_devicesdk*'
     - name: Management
       uid: azure.python.sdk.landingPage.services.IoT.Management
