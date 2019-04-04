@@ -2,13 +2,6 @@
 items:
 - children:
   - azure
-  - azure.iot.hub.devicesdk.common.message
-  - azure.iot.hub.devicesdk.common.method_request
-  - azure.iot.hub.devicesdk.transport.abstract_transport
-  - azure.iot.hub.devicesdk.transport.amqp.amqp_wrapper
-  - azure.iot.hub.devicesdk.transport.constant
-  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
-  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
   fullName: azure_iot_hub_devicesdk
   kind: distribution
   langs:
@@ -22,31 +15,3 @@ references:
   isExternal: false
   name: azure
   uid: azure
-- fullname: azure.iot.hub.devicesdk.common.message
-  isExternal: false
-  name: azure.iot.hub.devicesdk.common.message
-  uid: azure.iot.hub.devicesdk.common.message
-- fullname: azure.iot.hub.devicesdk.common.method_request
-  isExternal: false
-  name: azure.iot.hub.devicesdk.common.method_request
-  uid: azure.iot.hub.devicesdk.common.method_request
-- fullname: azure.iot.hub.devicesdk.transport.abstract_transport
-  isExternal: false
-  name: azure.iot.hub.devicesdk.transport.abstract_transport
-  uid: azure.iot.hub.devicesdk.transport.abstract_transport
-- fullname: azure.iot.hub.devicesdk.transport.amqp.amqp_wrapper
-  isExternal: false
-  name: azure.iot.hub.devicesdk.transport.amqp.amqp_wrapper
-  uid: azure.iot.hub.devicesdk.transport.amqp.amqp_wrapper
-- fullname: azure.iot.hub.devicesdk.transport.constant
-  isExternal: false
-  name: azure.iot.hub.devicesdk.transport.constant
-  uid: azure.iot.hub.devicesdk.transport.constant
-- fullname: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
-  isExternal: false
-  name: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
-  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
-- fullname: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
-  isExternal: false
-  name: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
-  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
