@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.auth.sas_authentication_provider.SharedAccessSignatureAuthenticationProvider
+  fullName: azure.iot.hub.devicesdk.auth.sas_authentication_provider
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.auth.sas_authentication_provider
+  name: sas_authentication_provider
+  source:
+    id: sas_authentication_provider
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\sas_authentication_provider.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\sas_authentication_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 0
+  type: module
+  uid: azure.iot.hub.devicesdk.auth.sas_authentication_provider
+references:
+- fullName: azure.iot.hub.devicesdk.auth.sas_authentication_provider.SharedAccessSignatureAuthenticationProvider
+  isExternal: false
+  name: SharedAccessSignatureAuthenticationProvider
+  parent: azure.iot.hub.devicesdk.auth.sas_authentication_provider
+  uid: azure.iot.hub.devicesdk.auth.sas_authentication_provider.SharedAccessSignatureAuthenticationProvider

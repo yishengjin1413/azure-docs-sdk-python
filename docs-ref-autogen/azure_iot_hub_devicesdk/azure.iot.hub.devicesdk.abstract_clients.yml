@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.abstract_clients.AbstractClient
+  - azure.iot.hub.devicesdk.abstract_clients.AbstractDeviceClient
+  - azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient
+  fullName: azure.iot.hub.devicesdk.abstract_clients
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.abstract_clients
+  name: abstract_clients
+  source:
+    id: abstract_clients
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\abstract_clients.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\abstract_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 0
+  summary: This module contains abstract classes for the various clients of the Azure
+    IoT Hub Device SDK
+  type: module
+  uid: azure.iot.hub.devicesdk.abstract_clients
+references:
+- fullName: azure.iot.hub.devicesdk.abstract_clients.AbstractClient
+  isExternal: false
+  name: AbstractClient
+  parent: azure.iot.hub.devicesdk.abstract_clients
+  uid: azure.iot.hub.devicesdk.abstract_clients.AbstractClient
+- fullName: azure.iot.hub.devicesdk.abstract_clients.AbstractDeviceClient
+  isExternal: false
+  name: AbstractDeviceClient
+  parent: azure.iot.hub.devicesdk.abstract_clients
+  uid: azure.iot.hub.devicesdk.abstract_clients.AbstractDeviceClient
+- fullName: azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient
+  isExternal: false
+  name: AbstractModuleClient
+  parent: azure.iot.hub.devicesdk.abstract_clients
+  uid: azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient

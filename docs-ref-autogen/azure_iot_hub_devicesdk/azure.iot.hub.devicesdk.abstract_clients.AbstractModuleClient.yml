@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient.receive_input_message
+  - azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient.send_to_output
+  class: azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient
+  fullName: azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.hub.devicesdk.abstract_clients.AbstractClient
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.abstract_clients
+  name: AbstractModuleClient
+  source:
+    id: AbstractModuleClient
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\abstract_clients.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\abstract_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 90
+  summary: ''
+  syntax:
+    content: AbstractModuleClient(transport)
+  type: class
+  uid: azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient
+- class: azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient
+  fullName: azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient.receive_input_message
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.abstract_clients
+  name: receive_input_message(input_name)
+  source:
+    id: receive_input_message
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\abstract_clients.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\abstract_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 95
+  syntax:
+    content: receive_input_message(input_name)
+    parameters:
+    - id: input_name
+  type: method
+  uid: azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient.receive_input_message
+- class: azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient
+  fullName: azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient.send_to_output
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.abstract_clients
+  name: send_to_output(message, output_name)
+  source:
+    id: send_to_output
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\abstract_clients.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\abstract_clients.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 91
+  syntax:
+    content: send_to_output(message, output_name)
+    parameters:
+    - id: message
+    - id: output_name
+  type: method
+  uid: azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient.send_to_output
+references:
+- fullName: azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient.receive_input_message
+  isExternal: false
+  name: receive_input_message(input_name)
+  parent: azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient
+  uid: azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient.receive_input_message
+- fullName: azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient.send_to_output
+  isExternal: false
+  name: send_to_output(message, output_name)
+  parent: azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient
+  uid: azure.iot.hub.devicesdk.abstract_clients.AbstractModuleClient.send_to_output

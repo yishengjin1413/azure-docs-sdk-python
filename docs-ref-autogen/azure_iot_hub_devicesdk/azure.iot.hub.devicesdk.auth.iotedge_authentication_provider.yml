@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.auth.iotedge_authentication_provider.IotEdgeAuthenticationProvider
+  fullName: azure.iot.hub.devicesdk.auth.iotedge_authentication_provider
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.auth.iotedge_authentication_provider
+  name: iotedge_authentication_provider
+  source:
+    id: iotedge_authentication_provider
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\iotedge_authentication_provider.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\iotedge_authentication_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 0
+  type: module
+  uid: azure.iot.hub.devicesdk.auth.iotedge_authentication_provider
+references:
+- fullName: azure.iot.hub.devicesdk.auth.iotedge_authentication_provider.IotEdgeAuthenticationProvider
+  isExternal: false
+  name: IotEdgeAuthenticationProvider
+  parent: azure.iot.hub.devicesdk.auth.iotedge_authentication_provider
+  uid: azure.iot.hub.devicesdk.auth.iotedge_authentication_provider.IotEdgeAuthenticationProvider

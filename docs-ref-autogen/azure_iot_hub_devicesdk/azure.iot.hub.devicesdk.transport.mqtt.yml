@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  fullName: azure.iot.hub.devicesdk.transport.mqtt
+  kind: import
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt
+  name: mqtt
+  source:
+    id: mqtt
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\__init__.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\__init__.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 0
+  summary: 'Azure IoT Hub Device SDK MQTT Transport
+
+
+
+    This package provides the MQTT transport for use with the Azure IoT Hub Device
+    SDK.
+
+    INTERNAL USAGE ONLY'
+  type: package
+  uid: azure.iot.hub.devicesdk.transport.mqtt
+references:
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
+  isExternal: false
+  name: mqtt_provider
+  parent: azure.iot.hub.devicesdk.transport.mqtt
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  isExternal: false
+  name: mqtt_transport
+  parent: azure.iot.hub.devicesdk.transport.mqtt
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport

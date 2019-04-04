@@ -1,0 +1,17 @@
+### YamlMime:UniversalReference
+items:
+- children:
+  - azure
+  fullName: azure_iot_hub_devicesdk
+  kind: distribution
+  langs:
+  - python
+  name: azure_iot_hub_devicesdk
+  summary: ''
+  type: package
+  uid: project-azure_iot_hub_devicesdk
+references:
+- fullname: azure
+  isExternal: false
+  name: azure
+  uid: azure

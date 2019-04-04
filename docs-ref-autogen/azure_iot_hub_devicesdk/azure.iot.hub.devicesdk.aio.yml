@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.aio.async_clients
+  - azure.iot.hub.devicesdk.aio.async_inbox
+  fullName: azure.iot.hub.devicesdk.aio
+  kind: import
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.aio
+  name: aio
+  source:
+    id: aio
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\aio\__init__.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\aio\__init__.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 0
+  summary: 'Azure IoT Hub Device SDK - Asynchronous
+
+
+
+    This SDK provides asynchronous functionality for communicating with the Azure
+    IoT Hub
+
+    as a Device or Module.'
+  type: package
+  uid: azure.iot.hub.devicesdk.aio
+references:
+- fullName: azure.iot.hub.devicesdk.aio.async_clients
+  isExternal: false
+  name: async_clients
+  parent: azure.iot.hub.devicesdk.aio
+  uid: azure.iot.hub.devicesdk.aio.async_clients
+- fullName: azure.iot.hub.devicesdk.aio.async_inbox
+  isExternal: false
+  name: async_inbox
+  parent: azure.iot.hub.devicesdk.aio
+  uid: azure.iot.hub.devicesdk.aio.async_inbox

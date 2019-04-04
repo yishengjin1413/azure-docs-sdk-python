@@ -1,0 +1,220 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.disconnect
+  - azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.generate_new_sas_token
+  - azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.get_current_sas_token
+  class: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+  fullName: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider
+  name: BaseRenewableTokenAuthenticationProvider
+  source:
+    id: BaseRenewableTokenAuthenticationProvider
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\base_renewable_token_authentication_provider.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\base_renewable_token_authentication_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 28
+  summary: 'A base class for authentication providers which are based on SAS (Shared
+
+    Authentication Signature) strings which are able to be renewed.
+
+
+    The SAS token string renewal is based on a signing function that is used
+
+    to create the sig field of the SAS string.  This base implements all
+
+    functionality for SAS string creation except for the signing function,
+
+    which is expected to be provided by derived objects.  This base also
+
+    implements the functionality necessary for timing and executing the
+
+    token renewal operation.'
+  syntax:
+    content: BaseRenewableTokenAuthenticationProvider(hostname, device_id, module_id=None)
+  type: class
+  uid: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+- class: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+  fullName: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.disconnect
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider
+  name: disconnect()
+  source:
+    id: disconnect
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\base_renewable_token_authentication_provider.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\base_renewable_token_authentication_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 61
+  summary: Cancel updates to the SAS Token
+  syntax:
+    content: disconnect()
+    parameters: []
+  type: method
+  uid: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.disconnect
+- class: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+  fullName: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.generate_new_sas_token
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider
+  name: generate_new_sas_token()
+  source:
+    id: generate_new_sas_token
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\base_renewable_token_authentication_provider.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\base_renewable_token_authentication_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 65
+  summary: 'Force the SAS token to update itself.
+
+
+    This will cause a new sas token to be created using the _sign function.
+
+    This token is valid for roughly self.token_validity_period second.
+
+
+    This validity period can only be roughly enforced because it relies on the
+
+    coordination of clocks between the client device and the service.  If the two
+
+    different machines have different definitions of "now", most likely because
+
+    of clock drift, then they will also have different notions of when a token will
+
+    expire.  This algorithm atempts to compensate for clock drift by taking
+
+    self.token_renewal_margin into account when deciding when to renew a token.
+
+
+    If self.token_udpate_callback is set, this callback will be called to notify the
+
+    transport that a new token is available.  The transport is responsible for doing
+
+    whatever is necessary to leverage the new token when the token_update_callback
+
+    function is called.
+
+
+    The token that is generated expires at some point in the future, based on the
+    token
+
+    renewal interval and the token renewal margin.  When a token is first generated,
+    the
+
+    authorization provider object will set a timer which will be responsible for renewing
+
+    the token before the it expires.  When this timer fires, it will automatically
+    generate
+
+    a new sas token and notify the transport by calling self.token_update_callback.
+
+
+    The token update timer is set based on two numbers: self.token_validity_period
+    and
+
+    self.token_renewal_margin
+
+
+    The first number is the validity period.  This defines the amount of time that
+    the token
+
+    is valid.  The interval is encoded in the token as an offset from the current
+    time,
+
+    as based on the Unix epoch.  In other words, the expiry (se=) value in the token
+
+    is the number of seconds after 00:00 on January 1, 1970 that the token expires.
+
+
+    The second number that defines the token renewal behavior is the margin.  This
+    is
+
+    the number of seconds before expiration that we want to generate a new token.  Since
+
+    the clocks on different computers can drift over time, they will all have different
+
+    definitions of what "now" is, so the margin needs to be set so there is a
+
+    very small chance that there is no time overlap where one computer thinks the
+    token
+
+    is expired and another doesn''t.
+
+
+    When the timer is set to renew the SAS token, the timer is set for
+
+    (token_validity_period - token_renewal_margin) seconds in the future.  In this
+    way,
+
+    the token will be renewed close to it''s expiration time, but not so close that
+
+    we risk a problem caused by clock drift.'
+  syntax:
+    content: generate_new_sas_token()
+    parameters: []
+    return:
+      description: None
+  type: method
+  uid: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.generate_new_sas_token
+- class: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+  fullName: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.get_current_sas_token
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider
+  name: get_current_sas_token()
+  source:
+    id: get_current_sas_token
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\base_renewable_token_authentication_provider.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\base_renewable_token_authentication_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 179
+  summary: 'Get the current SharedAuthenticationSignature string.
+
+
+    This string can be used to authenticate with an Azure IoT Hub or Azure IoT Edge
+    Hub service.
+
+
+    If a SAS token has not yet been created yet, this function call the generate_new_sas_token
+
+    function to create a new token and schedule the update timer.  See the documentation
+    for
+
+    generate_new_sas_token for more detail.'
+  syntax:
+    content: get_current_sas_token()
+    parameters: []
+    return:
+      description: The current shared access signature token in string form.
+  type: method
+  uid: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.get_current_sas_token
+references:
+- fullName: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.disconnect
+  isExternal: false
+  name: disconnect()
+  parent: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+  uid: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.disconnect
+- fullName: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.generate_new_sas_token
+  isExternal: false
+  name: generate_new_sas_token()
+  parent: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+  uid: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.generate_new_sas_token
+- fullName: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.get_current_sas_token
+  isExternal: false
+  name: get_current_sas_token()
+  parent: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+  uid: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.get_current_sas_token

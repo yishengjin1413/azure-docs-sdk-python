@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  fullName: azure.iot.hub.devicesdk.transport.abstract_transport
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.abstract_transport
+  name: abstract_transport
+  source:
+    id: abstract_transport
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\abstract_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 0
+  type: module
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport
+references:
+- fullName: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+  isExternal: false
+  name: AbstractTransport
+  parent: azure.iot.hub.devicesdk.transport.abstract_transport
+  uid: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport

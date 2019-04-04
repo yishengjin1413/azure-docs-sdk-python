@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.inbox_manager.InboxManager
+  fullName: azure.iot.hub.devicesdk.inbox_manager
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.inbox_manager
+  name: inbox_manager
+  source:
+    id: inbox_manager
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\inbox_manager.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\inbox_manager.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 0
+  summary: This module contains a manager for inboxes.
+  type: module
+  uid: azure.iot.hub.devicesdk.inbox_manager
+references:
+- fullName: azure.iot.hub.devicesdk.inbox_manager.InboxManager
+  isExternal: false
+  name: InboxManager
+  parent: azure.iot.hub.devicesdk.inbox_manager
+  uid: azure.iot.hub.devicesdk.inbox_manager.InboxManager

@@ -1,0 +1,225 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.connect
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.disconnect
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.publish
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.reconnect
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.subscribe
+  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.unsubscribe
+  class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
+  name: MQTTProvider
+  source:
+    id: MQTTProvider
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_provider.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 15
+  summary: 'A wrapper over the actual implementation of mqtt message broker which
+    will eventually connect to an mqtt broker
+
+    to publish/subscribe messages.'
+  syntax:
+    content: MQTTProvider(client_id, hostname, username, ca_cert=None)
+  type: class
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+- class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.connect
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
+  name: connect(password)
+  source:
+    id: connect
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_provider.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 112
+  summary: 'This method connects the upper transport layer to the mqtt broker.
+
+    This method should be called as an entry point before sending any telemetry.'
+  syntax:
+    content: connect(password)
+    parameters:
+    - id: password
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.connect
+- class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.disconnect
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
+  name: disconnect()
+  source:
+    id: disconnect
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_provider.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 142
+  summary: 'This method disconnects the mqtt provider. This should be called from
+    the upper transport
+
+    when it wants to disconnect from the mqtt provider.'
+  syntax:
+    content: disconnect()
+    parameters: []
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.disconnect
+- class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.publish
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
+  name: publish(topic, message_payload)
+  source:
+    id: publish
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_provider.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 150
+  summary: 'This method enables the transport to send a message to the message broker.
+
+    By default the the quality of service level to use is set to 1.
+
+    :param topic: topic: The topic that the message should be published on.
+
+    :param message_payload: The actual message to send.
+
+    :return message ID for the publish request.'
+  syntax:
+    content: publish(topic, message_payload)
+    parameters:
+    - id: topic
+    - id: message_payload
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.publish
+- class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.reconnect
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
+  name: reconnect(password)
+  source:
+    id: reconnect
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_provider.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 133
+  summary: 'This method reconnects the mqtt broker, possibly because of a password
+    (sas) change
+
+    Connect should have previously been called.'
+  syntax:
+    content: reconnect(password)
+    parameters:
+    - id: password
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.reconnect
+- class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.subscribe
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
+  name: subscribe(topic, qos=0)
+  source:
+    id: subscribe
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_provider.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 162
+  summary: 'This method subscribes the client to one topic.
+
+    :param topic: a single string specifying the subscription topic to subscribe to
+
+    :param qos: the desired quality of service level for the subscription. Defaults
+    to 0.
+
+    :return: message ID for the subscribe request
+
+    Raises a ValueError if qos is not 0, 1 or 2, or if topic is None or has zero string
+    length,'
+  syntax:
+    content: subscribe(topic, qos=0)
+    parameters:
+    - id: topic
+    - defaultValue: '0'
+      id: qos
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.subscribe
+- class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.unsubscribe
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
+  name: unsubscribe(topic)
+  source:
+    id: unsubscribe
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_provider.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 174
+  summary: 'Unsubscribe the client from one topic.
+
+    :param topic: a single string which is the subscription topic to unsubscribe from.
+
+    :return: mid the message ID for the unsubscribe request.
+
+    Raises a ValueError if topic is None or has zero string length, or is not a string.'
+  syntax:
+    content: unsubscribe(topic)
+    parameters:
+    - id: topic
+  type: method
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.unsubscribe
+references:
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.connect
+  isExternal: false
+  name: connect(password)
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.connect
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.disconnect
+  isExternal: false
+  name: disconnect()
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.disconnect
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.publish
+  isExternal: false
+  name: publish(topic, message_payload)
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.publish
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.reconnect
+  isExternal: false
+  name: reconnect(password)
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.reconnect
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.subscribe
+  isExternal: false
+  name: subscribe(topic, qos=0)
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.subscribe
+- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.unsubscribe
+  isExternal: false
+  name: unsubscribe(topic)
+  parent: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider.unsubscribe

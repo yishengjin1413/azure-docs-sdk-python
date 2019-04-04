@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.hub.devicesdk.common.message
+  - azure.iot.hub.devicesdk.common.method_request
+  fullName: azure.iot.hub.devicesdk.common
+  kind: import
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.common
+  name: common
+  source:
+    id: common
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\common\__init__.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\common\__init__.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 0
+  summary: 'Azure IoT Hub Device SDK Common
+
+
+
+    This package provides common data structures for use within the Azure IoT Hub
+    Device SDK.
+
+    INTERNAL USAGE ONLY'
+  type: package
+  uid: azure.iot.hub.devicesdk.common
+references:
+- fullName: azure.iot.hub.devicesdk.common.message
+  isExternal: false
+  name: message
+  parent: azure.iot.hub.devicesdk.common
+  uid: azure.iot.hub.devicesdk.common.message
+- fullName: azure.iot.hub.devicesdk.common.method_request
+  isExternal: false
+  name: method_request
+  parent: azure.iot.hub.devicesdk.common
+  uid: azure.iot.hub.devicesdk.common.method_request
