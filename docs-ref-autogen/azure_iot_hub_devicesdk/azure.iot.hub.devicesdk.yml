@@ -8,7 +8,6 @@ items:
   - azure.iot.hub.devicesdk.InboxEmpty
   - azure.iot.hub.devicesdk.aio
   - azure.iot.hub.devicesdk.auth
-  - azure.iot.hub.devicesdk.common
   fullName: azure.iot.hub.devicesdk
   kind: import
   langs:
@@ -63,8 +62,3 @@ references:
   name: auth
   parent: azure.iot.hub.devicesdk
   uid: azure.iot.hub.devicesdk.auth
-- fullName: azure.iot.hub.devicesdk.common
-  isExternal: false
-  name: common
-  parent: azure.iot.hub.devicesdk
-  uid: azure.iot.hub.devicesdk.common

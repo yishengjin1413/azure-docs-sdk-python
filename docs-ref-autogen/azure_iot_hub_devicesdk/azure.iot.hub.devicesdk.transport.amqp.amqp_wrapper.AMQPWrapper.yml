@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.hub.devicesdk.transport.amqp.amqp_wrapper.AMQPWrapper
+  fullName: azure.iot.hub.devicesdk.transport.amqp.amqp_wrapper.AMQPWrapper
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.amqp.amqp_wrapper
+  name: AMQPWrapper
+  source:
+    id: AMQPWrapper
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\amqp\amqp_wrapper.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\amqp\amqp_wrapper.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 8
+  syntax:
+    content: AMQPWrapper(client_id, hostname)
+  type: class
+  uid: azure.iot.hub.devicesdk.transport.amqp.amqp_wrapper.AMQPWrapper
+references: []

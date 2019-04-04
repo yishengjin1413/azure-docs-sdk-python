@@ -53,8 +53,6 @@
               uid: azure.iot.hub.devicesdk.auth.sk_authentication_provider
             name: azure.iot.hub.devicesdk.auth
             uid: azure.iot.hub.devicesdk.auth
-          - name: azure.iot.hub.devicesdk.common
-            uid: azure.iot.hub.devicesdk.common
           - name: azure.iot.hub.devicesdk.DeviceClient
             uid: azure.iot.hub.devicesdk.DeviceClient
           - name: azure.iot.hub.devicesdk.InboxEmpty
@@ -71,10 +69,48 @@
       uid: azure.iot
     name: azure
     uid: azure
-  - name: azure.iot.hub.devicesdk.transport.amqp
-    uid: azure.iot.hub.devicesdk.transport.amqp
-  - name: azure.iot.hub.devicesdk.transport.mqtt
-    uid: azure.iot.hub.devicesdk.transport.mqtt
+  - items:
+    - name: azure.iot.hub.devicesdk.common.message.Message
+      uid: azure.iot.hub.devicesdk.common.message.Message
+    name: azure.iot.hub.devicesdk.common.message
+    uid: azure.iot.hub.devicesdk.common.message
+  - items:
+    - name: azure.iot.hub.devicesdk.common.method_request.MethodRequest
+      uid: azure.iot.hub.devicesdk.common.method_request.MethodRequest
+    name: azure.iot.hub.devicesdk.common.method_request
+    uid: azure.iot.hub.devicesdk.common.method_request
+  - items:
+    - name: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+      uid: azure.iot.hub.devicesdk.transport.abstract_transport.AbstractTransport
+    name: azure.iot.hub.devicesdk.transport.abstract_transport
+    uid: azure.iot.hub.devicesdk.transport.abstract_transport
+  - items:
+    - name: azure.iot.hub.devicesdk.transport.amqp.amqp_wrapper.AMQPWrapper
+      uid: azure.iot.hub.devicesdk.transport.amqp.amqp_wrapper.AMQPWrapper
+    name: azure.iot.hub.devicesdk.transport.amqp.amqp_wrapper
+    uid: azure.iot.hub.devicesdk.transport.amqp.amqp_wrapper
+  - name: azure.iot.hub.devicesdk.transport.constant
+    uid: azure.iot.hub.devicesdk.transport.constant
+  - items:
+    - name: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+      uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider.MQTTProvider
+    name: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
+    uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
+  - items:
+    - name: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+      uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MQTTTransport
+    - name: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MethodReponseAction
+      uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.MethodReponseAction
+    - name: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.SendMessageAction
+      uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.SendMessageAction
+    - name: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.SubscribeAction
+      uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.SubscribeAction
+    - name: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.TransportAction
+      uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.TransportAction
+    - name: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.UnsubscribeAction
+      uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.UnsubscribeAction
+    name: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+    uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
   name: azure_iot_hub_devicesdk
   uid: project-azure_iot_hub_devicesdk
 

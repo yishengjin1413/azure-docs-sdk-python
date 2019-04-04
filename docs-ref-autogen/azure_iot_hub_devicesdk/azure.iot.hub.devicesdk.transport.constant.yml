@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  fullName: azure.iot.hub.devicesdk.transport.constant
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.constant
+  name: constant
+  source:
+    id: constant
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\constant.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\constant.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 0
+  summary: This module contains constants realted to the transport package.
+  type: module
+  uid: azure.iot.hub.devicesdk.transport.constant
+references: []

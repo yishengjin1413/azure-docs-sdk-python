@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.SubscribeAction
+  fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.SubscribeAction
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.TransportAction
+  langs:
+  - python
+  module: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+  name: SubscribeAction
+  source:
+    id: SubscribeAction
+    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+    remote:
+      branch: master
+      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\transport\mqtt\mqtt_transport.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 107
+  summary: TransportAction object used to subscribe to a specific MQTT topic
+  syntax:
+    content: SubscribeAction(topic, qos, callback)
+  type: class
+  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport.SubscribeAction
+references: []
