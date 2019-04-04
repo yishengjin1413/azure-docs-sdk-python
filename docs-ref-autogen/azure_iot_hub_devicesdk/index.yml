@@ -2,6 +2,8 @@
 items:
 - children:
   - azure
+  - azure.iot.hub.devicesdk.transport.amqp
+  - azure.iot.hub.devicesdk.transport.mqtt
   fullName: azure_iot_hub_devicesdk
   kind: distribution
   langs:
@@ -15,3 +17,11 @@ references:
   isExternal: false
   name: azure
   uid: azure
+- fullname: azure.iot.hub.devicesdk.transport.amqp
+  isExternal: false
+  name: azure.iot.hub.devicesdk.transport.amqp
+  uid: azure.iot.hub.devicesdk.transport.amqp
+- fullname: azure.iot.hub.devicesdk.transport.mqtt
+  isExternal: false
+  name: azure.iot.hub.devicesdk.transport.mqtt
+  uid: azure.iot.hub.devicesdk.transport.mqtt

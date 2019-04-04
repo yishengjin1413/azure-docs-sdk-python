@@ -9,7 +9,6 @@ items:
   - azure.iot.hub.devicesdk.aio
   - azure.iot.hub.devicesdk.auth
   - azure.iot.hub.devicesdk.common
-  - azure.iot.hub.devicesdk.transport
   fullName: azure.iot.hub.devicesdk
   kind: import
   langs:
@@ -69,8 +68,3 @@ references:
   name: common
   parent: azure.iot.hub.devicesdk
   uid: azure.iot.hub.devicesdk.common
-- fullName: azure.iot.hub.devicesdk.transport
-  isExternal: false
-  name: transport
-  parent: azure.iot.hub.devicesdk
-  uid: azure.iot.hub.devicesdk.transport

@@ -55,13 +55,6 @@
             uid: azure.iot.hub.devicesdk.auth
           - name: azure.iot.hub.devicesdk.common
             uid: azure.iot.hub.devicesdk.common
-          - items:
-            - name: azure.iot.hub.devicesdk.transport.amqp
-              uid: azure.iot.hub.devicesdk.transport.amqp
-            - name: azure.iot.hub.devicesdk.transport.mqtt
-              uid: azure.iot.hub.devicesdk.transport.mqtt
-            name: azure.iot.hub.devicesdk.transport
-            uid: azure.iot.hub.devicesdk.transport
           - name: azure.iot.hub.devicesdk.DeviceClient
             uid: azure.iot.hub.devicesdk.DeviceClient
           - name: azure.iot.hub.devicesdk.InboxEmpty
@@ -78,6 +71,10 @@
       uid: azure.iot
     name: azure
     uid: azure
+  - name: azure.iot.hub.devicesdk.transport.amqp
+    uid: azure.iot.hub.devicesdk.transport.amqp
+  - name: azure.iot.hub.devicesdk.transport.mqtt
+    uid: azure.iot.hub.devicesdk.transport.mqtt
   name: azure_iot_hub_devicesdk
   uid: project-azure_iot_hub_devicesdk
 
