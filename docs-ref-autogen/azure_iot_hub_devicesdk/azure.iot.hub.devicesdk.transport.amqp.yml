@@ -1,8 +1,7 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - azure.iot.hub.devicesdk.transport.amqp.amqp_wrapper
+- children: []
   fullName: azure.iot.hub.devicesdk.transport.amqp
   kind: import
   langs:
@@ -27,9 +26,4 @@ items:
     INTERNAL USAGE ONLY'
   type: package
   uid: azure.iot.hub.devicesdk.transport.amqp
-references:
-- fullName: azure.iot.hub.devicesdk.transport.amqp.amqp_wrapper
-  isExternal: false
-  name: amqp_wrapper
-  parent: azure.iot.hub.devicesdk.transport.amqp
-  uid: azure.iot.hub.devicesdk.transport.amqp.amqp_wrapper
+references: []

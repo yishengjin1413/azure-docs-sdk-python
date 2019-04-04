@@ -2,8 +2,6 @@
 api_name: []
 items:
 - children:
-  - azure.iot.hub.devicesdk.transport.abstract_transport
-  - azure.iot.hub.devicesdk.transport.constant
   - azure.iot.hub.devicesdk.transport.amqp
   - azure.iot.hub.devicesdk.transport.mqtt
   fullName: azure.iot.hub.devicesdk.transport
@@ -30,16 +28,6 @@ items:
   type: package
   uid: azure.iot.hub.devicesdk.transport
 references:
-- fullName: azure.iot.hub.devicesdk.transport.abstract_transport
-  isExternal: false
-  name: abstract_transport
-  parent: azure.iot.hub.devicesdk.transport
-  uid: azure.iot.hub.devicesdk.transport.abstract_transport
-- fullName: azure.iot.hub.devicesdk.transport.constant
-  isExternal: false
-  name: constant
-  parent: azure.iot.hub.devicesdk.transport
-  uid: azure.iot.hub.devicesdk.transport.constant
 - fullName: azure.iot.hub.devicesdk.transport.amqp
   isExternal: false
   name: amqp

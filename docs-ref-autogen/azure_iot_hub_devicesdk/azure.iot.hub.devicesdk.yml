@@ -6,10 +6,6 @@ items:
   - azure.iot.hub.devicesdk.ModuleClient
   - azure.iot.hub.devicesdk.Message
   - azure.iot.hub.devicesdk.InboxEmpty
-  - azure.iot.hub.devicesdk.abstract_clients
-  - azure.iot.hub.devicesdk.inbox_manager
-  - azure.iot.hub.devicesdk.sync_clients
-  - azure.iot.hub.devicesdk.sync_inbox
   - azure.iot.hub.devicesdk.aio
   - azure.iot.hub.devicesdk.auth
   - azure.iot.hub.devicesdk.common
@@ -58,26 +54,6 @@ references:
   name: InboxEmpty
   parent: azure.iot.hub.devicesdk
   uid: azure.iot.hub.devicesdk.InboxEmpty
-- fullName: azure.iot.hub.devicesdk.abstract_clients
-  isExternal: false
-  name: abstract_clients
-  parent: azure.iot.hub.devicesdk
-  uid: azure.iot.hub.devicesdk.abstract_clients
-- fullName: azure.iot.hub.devicesdk.inbox_manager
-  isExternal: false
-  name: inbox_manager
-  parent: azure.iot.hub.devicesdk
-  uid: azure.iot.hub.devicesdk.inbox_manager
-- fullName: azure.iot.hub.devicesdk.sync_clients
-  isExternal: false
-  name: sync_clients
-  parent: azure.iot.hub.devicesdk
-  uid: azure.iot.hub.devicesdk.sync_clients
-- fullName: azure.iot.hub.devicesdk.sync_inbox
-  isExternal: false
-  name: sync_inbox
-  parent: azure.iot.hub.devicesdk
-  uid: azure.iot.hub.devicesdk.sync_inbox
 - fullName: azure.iot.hub.devicesdk.aio
   isExternal: false
   name: aio

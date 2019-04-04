@@ -1,9 +1,7 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - azure.iot.hub.devicesdk.common.message
-  - azure.iot.hub.devicesdk.common.method_request
+- children: []
   fullName: azure.iot.hub.devicesdk.common
   kind: import
   langs:
@@ -28,14 +26,4 @@ items:
     INTERNAL USAGE ONLY'
   type: package
   uid: azure.iot.hub.devicesdk.common
-references:
-- fullName: azure.iot.hub.devicesdk.common.message
-  isExternal: false
-  name: message
-  parent: azure.iot.hub.devicesdk.common
-  uid: azure.iot.hub.devicesdk.common.message
-- fullName: azure.iot.hub.devicesdk.common.method_request
-  isExternal: false
-  name: method_request
-  parent: azure.iot.hub.devicesdk.common
-  uid: azure.iot.hub.devicesdk.common.method_request
+references: []

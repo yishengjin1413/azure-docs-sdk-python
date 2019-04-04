@@ -1,9 +1,7 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
-  - azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+- children: []
   fullName: azure.iot.hub.devicesdk.transport.mqtt
   kind: import
   langs:
@@ -28,14 +26,4 @@ items:
     INTERNAL USAGE ONLY'
   type: package
   uid: azure.iot.hub.devicesdk.transport.mqtt
-references:
-- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
-  isExternal: false
-  name: mqtt_provider
-  parent: azure.iot.hub.devicesdk.transport.mqtt
-  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_provider
-- fullName: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
-  isExternal: false
-  name: mqtt_transport
-  parent: azure.iot.hub.devicesdk.transport.mqtt
-  uid: azure.iot.hub.devicesdk.transport.mqtt.mqtt_transport
+references: []
