@@ -2,7 +2,7 @@
 api_name: []
 items:
 - children:
-  - azure.iot.hub
+  - azure.iot.device
   fullName: azure.iot
   kind: import
   langs:
@@ -11,17 +11,17 @@ items:
   name: iot
   source:
     id: iot
-    path: azure-iot-hub-devicesdk\azure\iot\__init__.py
+    path: null
     remote:
       branch: master
-      path: azure-iot-hub-devicesdk\azure\iot\__init__.py
+      path: null
       repo: https://github.com/Azure/azure-iot-sdk-python-preview
-    startLine: 0
+    startLine: null
   type: package
   uid: azure.iot
 references:
-- fullName: azure.iot.hub
+- fullName: azure.iot.device
   isExternal: false
-  name: hub
+  name: device
   parent: azure.iot
-  uid: azure.iot.hub
+  uid: azure.iot.device

@@ -11,12 +11,12 @@ items:
   name: azure
   source:
     id: azure
-    path: azure-iot-hub-devicesdk\azure\__init__.py
+    path: null
     remote:
       branch: master
-      path: azure-iot-hub-devicesdk\azure\__init__.py
+      path: null
       repo: https://github.com/Azure/azure-iot-sdk-python-preview
-    startLine: 0
+    startLine: null
   type: package
   uid: azure
 references:

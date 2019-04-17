@@ -2,73 +2,68 @@
   - items:
     - items:
       - items:
+        - name: azure.iot.device.aio
+          uid: azure.iot.device.aio
         - items:
           - items:
             - items:
-              - name: azure.iot.hub.devicesdk.aio.async_clients.DeviceClient
-                uid: azure.iot.hub.devicesdk.aio.async_clients.DeviceClient
-              - name: azure.iot.hub.devicesdk.aio.async_clients.ModuleClient
-                uid: azure.iot.hub.devicesdk.aio.async_clients.ModuleClient
-              name: azure.iot.hub.devicesdk.aio.async_clients
-              uid: azure.iot.hub.devicesdk.aio.async_clients
+              - name: azure.iot.device.iothub.auth.authentication_provider.AuthenticationProvider
+                uid: azure.iot.device.iothub.auth.authentication_provider.AuthenticationProvider
+              name: azure.iot.device.iothub.auth.authentication_provider
+              uid: azure.iot.device.iothub.auth.authentication_provider
+            - name: azure.iot.device.iothub.auth.authentication_provider_factory
+              uid: azure.iot.device.iothub.auth.authentication_provider_factory
             - items:
-              - name: azure.iot.hub.devicesdk.aio.async_inbox.AsyncClientInbox
-                uid: azure.iot.hub.devicesdk.aio.async_inbox.AsyncClientInbox
-              name: azure.iot.hub.devicesdk.aio.async_inbox
-              uid: azure.iot.hub.devicesdk.aio.async_inbox
-            name: azure.iot.hub.devicesdk.aio
-            uid: azure.iot.hub.devicesdk.aio
-          - items:
+              - name: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+                uid: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+              name: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider
+              uid: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider
             - items:
-              - name: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider
-                uid: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider
-              name: azure.iot.hub.devicesdk.auth.authentication_provider
-              uid: azure.iot.hub.devicesdk.auth.authentication_provider
-            - name: azure.iot.hub.devicesdk.auth.authentication_provider_factory
-              uid: azure.iot.hub.devicesdk.auth.authentication_provider_factory
+              - name: azure.iot.device.iothub.auth.iotedge_authentication_provider.IotEdgeAuthenticationProvider
+                uid: azure.iot.device.iothub.auth.iotedge_authentication_provider.IotEdgeAuthenticationProvider
+              name: azure.iot.device.iothub.auth.iotedge_authentication_provider
+              uid: azure.iot.device.iothub.auth.iotedge_authentication_provider
             - items:
-              - name: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
-                uid: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
-              name: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider
-              uid: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider
+              - name: azure.iot.device.iothub.auth.iotedge_hsm.IotEdgeHsm
+                uid: azure.iot.device.iothub.auth.iotedge_hsm.IotEdgeHsm
+              name: azure.iot.device.iothub.auth.iotedge_hsm
+              uid: azure.iot.device.iothub.auth.iotedge_hsm
             - items:
-              - name: azure.iot.hub.devicesdk.auth.iotedge_authentication_provider.IotEdgeAuthenticationProvider
-                uid: azure.iot.hub.devicesdk.auth.iotedge_authentication_provider.IotEdgeAuthenticationProvider
-              name: azure.iot.hub.devicesdk.auth.iotedge_authentication_provider
-              uid: azure.iot.hub.devicesdk.auth.iotedge_authentication_provider
+              - name: azure.iot.device.iothub.auth.sas_authentication_provider.SharedAccessSignatureAuthenticationProvider
+                uid: azure.iot.device.iothub.auth.sas_authentication_provider.SharedAccessSignatureAuthenticationProvider
+              name: azure.iot.device.iothub.auth.sas_authentication_provider
+              uid: azure.iot.device.iothub.auth.sas_authentication_provider
             - items:
-              - name: azure.iot.hub.devicesdk.auth.iotedge_hsm.IotEdgeHsm
-                uid: azure.iot.hub.devicesdk.auth.iotedge_hsm.IotEdgeHsm
-              name: azure.iot.hub.devicesdk.auth.iotedge_hsm
-              uid: azure.iot.hub.devicesdk.auth.iotedge_hsm
-            - items:
-              - name: azure.iot.hub.devicesdk.auth.sas_authentication_provider.SharedAccessSignatureAuthenticationProvider
-                uid: azure.iot.hub.devicesdk.auth.sas_authentication_provider.SharedAccessSignatureAuthenticationProvider
-              name: azure.iot.hub.devicesdk.auth.sas_authentication_provider
-              uid: azure.iot.hub.devicesdk.auth.sas_authentication_provider
-            - items:
-              - name: azure.iot.hub.devicesdk.auth.sk_authentication_provider.SymmetricKeyAuthenticationProvider
-                uid: azure.iot.hub.devicesdk.auth.sk_authentication_provider.SymmetricKeyAuthenticationProvider
-              name: azure.iot.hub.devicesdk.auth.sk_authentication_provider
-              uid: azure.iot.hub.devicesdk.auth.sk_authentication_provider
-            name: azure.iot.hub.devicesdk.auth
-            uid: azure.iot.hub.devicesdk.auth
-          - name: azure.iot.hub.devicesdk.DeviceClient
-            uid: azure.iot.hub.devicesdk.DeviceClient
-          - name: azure.iot.hub.devicesdk.InboxEmpty
-            uid: azure.iot.hub.devicesdk.InboxEmpty
-          - name: azure.iot.hub.devicesdk.Message
-            uid: azure.iot.hub.devicesdk.Message
-          - name: azure.iot.hub.devicesdk.ModuleClient
-            uid: azure.iot.hub.devicesdk.ModuleClient
-          name: azure.iot.hub.devicesdk
-          uid: azure.iot.hub.devicesdk
-        name: azure.iot.hub
-        uid: azure.iot.hub
+              - name: azure.iot.device.iothub.auth.sk_authentication_provider.SymmetricKeyAuthenticationProvider
+                uid: azure.iot.device.iothub.auth.sk_authentication_provider.SymmetricKeyAuthenticationProvider
+              name: azure.iot.device.iothub.auth.sk_authentication_provider
+              uid: azure.iot.device.iothub.auth.sk_authentication_provider
+            name: azure.iot.device.iothub.auth
+            uid: azure.iot.device.iothub.auth
+          - name: azure.iot.device.iothub.InboxEmpty
+            uid: azure.iot.device.iothub.InboxEmpty
+          - name: azure.iot.device.iothub.IoTHubDeviceClient
+            uid: azure.iot.device.iothub.IoTHubDeviceClient
+          - name: azure.iot.device.iothub.IoTHubModuleClient
+            uid: azure.iot.device.iothub.IoTHubModuleClient
+          - name: azure.iot.device.iothub.Message
+            uid: azure.iot.device.iothub.Message
+          name: azure.iot.device.iothub
+          uid: azure.iot.device.iothub
+        - name: azure.iot.device.InboxEmpty
+          uid: azure.iot.device.InboxEmpty
+        - name: azure.iot.device.IoTHubDeviceClient
+          uid: azure.iot.device.IoTHubDeviceClient
+        - name: azure.iot.device.IoTHubModuleClient
+          uid: azure.iot.device.IoTHubModuleClient
+        - name: azure.iot.device.Message
+          uid: azure.iot.device.Message
+        name: azure.iot.device
+        uid: azure.iot.device
       name: azure.iot
       uid: azure.iot
     name: azure
     uid: azure
-  name: azure_iot_hub_devicesdk
-  uid: project-azure_iot_hub_devicesdk
+  name: azure-iot-device
+  uid: project-azure-iot-device
 

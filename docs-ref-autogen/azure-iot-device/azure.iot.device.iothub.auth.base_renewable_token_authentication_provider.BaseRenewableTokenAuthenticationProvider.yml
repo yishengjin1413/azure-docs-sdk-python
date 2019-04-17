@@ -2,25 +2,25 @@
 api_name: []
 items:
 - children:
-  - azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.disconnect
-  - azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.generate_new_sas_token
-  - azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.get_current_sas_token
-  class: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
-  fullName: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+  - azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.disconnect
+  - azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.generate_new_sas_token
+  - azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.get_current_sas_token
+  class: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+  fullName: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
   inheritance:
   - inheritance:
     - type: builtins.object
-    type: azure.iot.hub.devicesdk.auth.authentication_provider.AuthenticationProvider
+    type: azure.iot.device.iothub.auth.authentication_provider.AuthenticationProvider
   langs:
   - python
-  module: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider
+  module: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider
   name: BaseRenewableTokenAuthenticationProvider
   source:
     id: BaseRenewableTokenAuthenticationProvider
-    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\base_renewable_token_authentication_provider.py
+    path: azure-iot-device\azure\iot\device\iothub\auth\base_renewable_token_authentication_provider.py
     remote:
       branch: master
-      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\base_renewable_token_authentication_provider.py
+      path: azure-iot-device\azure\iot\device\iothub\auth\base_renewable_token_authentication_provider.py
       repo: https://github.com/Azure/azure-iot-sdk-python-preview
     startLine: 28
   summary: 'A base class for authentication providers which are based on SAS (Shared
@@ -42,19 +42,19 @@ items:
   syntax:
     content: BaseRenewableTokenAuthenticationProvider(hostname, device_id, module_id=None)
   type: class
-  uid: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
-- class: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
-  fullName: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.disconnect
+  uid: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+- class: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+  fullName: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.disconnect
   langs:
   - python
-  module: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider
+  module: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider
   name: disconnect()
   source:
     id: disconnect
-    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\base_renewable_token_authentication_provider.py
+    path: azure-iot-device\azure\iot\device\iothub\auth\base_renewable_token_authentication_provider.py
     remote:
       branch: master
-      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\base_renewable_token_authentication_provider.py
+      path: azure-iot-device\azure\iot\device\iothub\auth\base_renewable_token_authentication_provider.py
       repo: https://github.com/Azure/azure-iot-sdk-python-preview
     startLine: 61
   summary: Cancel updates to the SAS Token
@@ -62,19 +62,19 @@ items:
     content: disconnect()
     parameters: []
   type: method
-  uid: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.disconnect
-- class: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
-  fullName: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.generate_new_sas_token
+  uid: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.disconnect
+- class: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+  fullName: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.generate_new_sas_token
   langs:
   - python
-  module: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider
+  module: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider
   name: generate_new_sas_token()
   source:
     id: generate_new_sas_token
-    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\base_renewable_token_authentication_provider.py
+    path: azure-iot-device\azure\iot\device\iothub\auth\base_renewable_token_authentication_provider.py
     remote:
       branch: master
-      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\base_renewable_token_authentication_provider.py
+      path: azure-iot-device\azure\iot\device\iothub\auth\base_renewable_token_authentication_provider.py
       repo: https://github.com/Azure/azure-iot-sdk-python-preview
     startLine: 65
   summary: 'Force the SAS token to update itself.
@@ -167,19 +167,19 @@ items:
     return:
       description: None
   type: method
-  uid: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.generate_new_sas_token
-- class: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
-  fullName: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.get_current_sas_token
+  uid: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.generate_new_sas_token
+- class: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+  fullName: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.get_current_sas_token
   langs:
   - python
-  module: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider
+  module: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider
   name: get_current_sas_token()
   source:
     id: get_current_sas_token
-    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\base_renewable_token_authentication_provider.py
+    path: azure-iot-device\azure\iot\device\iothub\auth\base_renewable_token_authentication_provider.py
     remote:
       branch: master
-      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\auth\base_renewable_token_authentication_provider.py
+      path: azure-iot-device\azure\iot\device\iothub\auth\base_renewable_token_authentication_provider.py
       repo: https://github.com/Azure/azure-iot-sdk-python-preview
     startLine: 179
   summary: 'Get the current SharedAuthenticationSignature string.
@@ -201,20 +201,20 @@ items:
     return:
       description: The current shared access signature token in string form.
   type: method
-  uid: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.get_current_sas_token
+  uid: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.get_current_sas_token
 references:
-- fullName: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.disconnect
+- fullName: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.disconnect
   isExternal: false
   name: disconnect()
-  parent: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
-  uid: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.disconnect
-- fullName: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.generate_new_sas_token
+  parent: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+  uid: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.disconnect
+- fullName: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.generate_new_sas_token
   isExternal: false
   name: generate_new_sas_token()
-  parent: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
-  uid: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.generate_new_sas_token
-- fullName: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.get_current_sas_token
+  parent: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+  uid: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.generate_new_sas_token
+- fullName: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.get_current_sas_token
   isExternal: false
   name: get_current_sas_token()
-  parent: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
-  uid: azure.iot.hub.devicesdk.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.get_current_sas_token
+  parent: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider
+  uid: azure.iot.device.iothub.auth.base_renewable_token_authentication_provider.BaseRenewableTokenAuthenticationProvider.get_current_sas_token

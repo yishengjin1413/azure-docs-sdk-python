@@ -2,14 +2,14 @@
 items:
 - children:
   - azure
-  fullName: azure_iot_hub_devicesdk
+  fullName: azure-iot-device
   kind: distribution
   langs:
   - python
-  name: azure_iot_hub_devicesdk
+  name: azure-iot-device
   summary: ''
   type: package
-  uid: project-azure_iot_hub_devicesdk
+  uid: project-azure-iot-device
 references:
 - fullname: azure
   isExternal: false

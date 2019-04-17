@@ -2,20 +2,20 @@
 api_name: []
 items:
 - children: []
-  class: azure.iot.hub.devicesdk.Message
-  fullName: azure.iot.hub.devicesdk.Message
+  class: azure.iot.device.Message
+  fullName: azure.iot.device.Message
   inheritance:
   - type: builtins.object
   langs:
   - python
-  module: azure.iot.hub.devicesdk
+  module: azure.iot.device
   name: Message
   source:
     id: Message
-    path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\common\message.py
+    path: azure-iot-device\azure\iot\device\iothub\models\message.py
     remote:
       branch: master
-      path: azure-iot-hub-devicesdk\azure\iot\hub\devicesdk\common\message.py
+      path: azure-iot-device\azure\iot\device\iothub\models\message.py
       repo: https://github.com/Azure/azure-iot-sdk-python-preview
     startLine: 14
   summary: Represents a message to or from IoTHub
@@ -61,5 +61,5 @@ items:
         Can be 'application/json'
       id: content_type
   type: class
-  uid: azure.iot.hub.devicesdk.Message
+  uid: azure.iot.device.Message
 references: []
