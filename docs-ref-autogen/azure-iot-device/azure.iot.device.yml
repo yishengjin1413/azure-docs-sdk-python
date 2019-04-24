@@ -7,7 +7,6 @@ items:
   - azure.iot.device.Message
   - azure.iot.device.InboxEmpty
   - azure.iot.device.aio
-  - azure.iot.device.iothub
   fullName: azure.iot.device
   kind: import
   langs:
@@ -58,8 +57,3 @@ references:
   name: aio
   parent: azure.iot.device
   uid: azure.iot.device.aio
-- fullName: azure.iot.device.iothub
-  isExternal: false
-  name: iothub
-  parent: azure.iot.device
-  uid: azure.iot.device.iothub
