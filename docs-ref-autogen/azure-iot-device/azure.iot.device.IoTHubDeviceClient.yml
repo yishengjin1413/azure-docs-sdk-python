@@ -27,13 +27,13 @@ items:
       branch: master
       path: azure-iot-device\azure\iot\device\iothub\sync_clients.py
       repo: https://github.com/Azure/azure-iot-sdk-python-preview
-    startLine: 184
+    startLine: 187
   summary: 'A synchronous device client that connects to an Azure IoT Hub instance.
 
 
     Intended for usage with Python 2.7 or compatibility scenarios for Python 3.5.3+.'
   syntax:
-    content: IoTHubDeviceClient(transport)
+    content: IoTHubDeviceClient(pipeline)
   type: class
   uid: azure.iot.device.IoTHubDeviceClient
 - class: azure.iot.device.IoTHubDeviceClient
@@ -49,7 +49,7 @@ items:
       branch: master
       path: azure-iot-device\azure\iot\device\iothub\sync_clients.py
       repo: https://github.com/Azure/azure-iot-sdk-python-preview
-    startLine: 201
+    startLine: 204
   summary: 'Receive a C2D message that has been sent from the Azure IoT Hub.
 
 

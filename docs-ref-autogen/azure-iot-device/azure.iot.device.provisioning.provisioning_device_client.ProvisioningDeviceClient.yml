@@ -1,0 +1,80 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.cancel
+  - azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.register
+  class: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+  fullName: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.provisioning.provisioning_device_client
+  name: ProvisioningDeviceClient
+  source:
+    id: ProvisioningDeviceClient
+    path: azure-iot-device\azure\iot\device\provisioning\provisioning_device_client.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\provisioning_device_client.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 16
+  summary: Super class for any client that can be used to register devices to Device
+    Provisioning Service.
+  syntax:
+    content: ProvisioningDeviceClient(transport)
+  type: class
+  uid: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+- class: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+  fullName: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.cancel
+  langs:
+  - python
+  module: azure.iot.device.provisioning.provisioning_device_client
+  name: cancel()
+  source:
+    id: cancel
+    path: azure-iot-device\azure\iot\device\provisioning\provisioning_device_client.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\provisioning_device_client.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 35
+  summary: Cancel an in progress registration of the device with the Device Provisioning
+    Service.
+  syntax:
+    content: cancel()
+    parameters: []
+  type: method
+  uid: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.cancel
+- class: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+  fullName: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.register
+  langs:
+  - python
+  module: azure.iot.device.provisioning.provisioning_device_client
+  name: register()
+  source:
+    id: register
+    path: azure-iot-device\azure\iot\device\provisioning\provisioning_device_client.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\provisioning_device_client.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 28
+  summary: Register the device with the Device Provisioning Service.
+  syntax:
+    content: register()
+    parameters: []
+  type: method
+  uid: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.register
+references:
+- fullName: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.cancel
+  isExternal: false
+  name: cancel()
+  parent: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+  uid: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.cancel
+- fullName: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.register
+  isExternal: false
+  name: register()
+  parent: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+  uid: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient.register

@@ -6,7 +6,13 @@ items:
   - azure.iot.device.IoTHubModuleClient
   - azure.iot.device.Message
   - azure.iot.device.InboxEmpty
+  - azure.iot.device.MethodResponse
+  - azure.iot.device.SymmetricKeyProvisioningDeviceClient
+  - azure.iot.device.SymmetricKeySecurityClient
+  - azure.iot.device.RegistrationResult
+  - azure.iot.device.create_from_security_client
   - azure.iot.device.aio
+  - azure.iot.device.provisioning
   fullName: azure.iot.device
   kind: import
   langs:
@@ -31,6 +37,43 @@ items:
     from an IoT device.'
   type: package
   uid: azure.iot.device
+- fullName: azure.iot.device.create_from_security_client
+  langs:
+  - python
+  module: azure.iot.device
+  name: create_from_security_client(provisioning_host, security_client, transport_choice)
+  source:
+    id: create_from_security_client
+    path: azure-iot-device\azure\iot\device\provisioning\provisioning_device_client_factory.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\provisioning_device_client_factory.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 16
+  summary: 'Creates different types of registration clients which can enable devices
+    to communicate with Device Provisioning
+
+    Service based on parameters passed.
+
+    :param provisioning_host: Host running the Device Provisioning Service. Can be
+    found in the Azure portal in the
+
+    Overview tab as the string Global device endpoint
+
+    :param security_client: Instance of Security client object which can be either
+    of SymmetricKeySecurityClient,  TPMSecurtiyClient or X509SecurityClient
+
+    :param transport_choice: A string representing the transport the user wants
+
+    :return: A specific registration client based on parameters and validations.'
+  syntax:
+    content: create_from_security_client(provisioning_host, security_client, transport_choice)
+    parameters:
+    - id: provisioning_host
+    - id: security_client
+    - id: transport_choice
+  type: function
+  uid: azure.iot.device.create_from_security_client
 references:
 - fullName: azure.iot.device.IoTHubDeviceClient
   isExternal: false
@@ -52,8 +95,38 @@ references:
   name: InboxEmpty
   parent: azure.iot.device
   uid: azure.iot.device.InboxEmpty
+- fullName: azure.iot.device.MethodResponse
+  isExternal: false
+  name: MethodResponse
+  parent: azure.iot.device
+  uid: azure.iot.device.MethodResponse
+- fullName: azure.iot.device.SymmetricKeyProvisioningDeviceClient
+  isExternal: false
+  name: SymmetricKeyProvisioningDeviceClient
+  parent: azure.iot.device
+  uid: azure.iot.device.SymmetricKeyProvisioningDeviceClient
+- fullName: azure.iot.device.SymmetricKeySecurityClient
+  isExternal: false
+  name: SymmetricKeySecurityClient
+  parent: azure.iot.device
+  uid: azure.iot.device.SymmetricKeySecurityClient
+- fullName: azure.iot.device.RegistrationResult
+  isExternal: false
+  name: RegistrationResult
+  parent: azure.iot.device
+  uid: azure.iot.device.RegistrationResult
+- fullName: azure.iot.device.create_from_security_client
+  isExternal: false
+  name: create_from_security_client(provisioning_host, security_client, transport_choice)
+  parent: azure.iot.device
+  uid: azure.iot.device.create_from_security_client
 - fullName: azure.iot.device.aio
   isExternal: false
   name: aio
   parent: azure.iot.device
   uid: azure.iot.device.aio
+- fullName: azure.iot.device.provisioning
+  isExternal: false
+  name: provisioning
+  parent: azure.iot.device
+  uid: azure.iot.device.provisioning

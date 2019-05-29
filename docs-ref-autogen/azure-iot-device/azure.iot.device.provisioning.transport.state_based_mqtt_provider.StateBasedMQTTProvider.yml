@@ -1,0 +1,165 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.connect
+  - azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.disconnect
+  - azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.publish
+  - azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.subscribe
+  - azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.unsubscribe
+  class: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
+  fullName: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device.provisioning.transport.state_based_mqtt_provider
+  name: StateBasedMQTTProvider
+  source:
+    id: StateBasedMQTTProvider
+    path: azure-iot-device\azure\iot\device\provisioning\transport\state_based_mqtt_provider.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\transport\state_based_mqtt_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 9
+  summary: ''
+  syntax:
+    content: StateBasedMQTTProvider(provisioning_host, security_client)
+  type: class
+  uid: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
+- class: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
+  fullName: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.connect
+  langs:
+  - python
+  module: azure.iot.device.provisioning.transport.state_based_mqtt_provider
+  name: connect(callback=None)
+  source:
+    id: connect
+    path: azure-iot-device\azure\iot\device\provisioning\transport\state_based_mqtt_provider.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\transport\state_based_mqtt_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 13
+  syntax:
+    content: connect(callback=None)
+    parameters:
+    - defaultValue: None
+      id: callback
+  type: method
+  uid: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.connect
+- class: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
+  fullName: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.disconnect
+  langs:
+  - python
+  module: azure.iot.device.provisioning.transport.state_based_mqtt_provider
+  name: disconnect(callback=None)
+  source:
+    id: disconnect
+    path: azure-iot-device\azure\iot\device\provisioning\transport\state_based_mqtt_provider.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\transport\state_based_mqtt_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 16
+  syntax:
+    content: disconnect(callback=None)
+    parameters:
+    - defaultValue: None
+      id: callback
+  type: method
+  uid: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.disconnect
+- class: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
+  fullName: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.publish
+  langs:
+  - python
+  module: azure.iot.device.provisioning.transport.state_based_mqtt_provider
+  name: publish(topic, message, callback=None)
+  source:
+    id: publish
+    path: azure-iot-device\azure\iot\device\provisioning\transport\state_based_mqtt_provider.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\transport\state_based_mqtt_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 19
+  syntax:
+    content: publish(topic, message, callback=None)
+    parameters:
+    - id: topic
+    - id: message
+    - defaultValue: None
+      id: callback
+  type: method
+  uid: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.publish
+- class: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
+  fullName: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.subscribe
+  langs:
+  - python
+  module: azure.iot.device.provisioning.transport.state_based_mqtt_provider
+  name: subscribe(topic, callback=None)
+  source:
+    id: subscribe
+    path: azure-iot-device\azure\iot\device\provisioning\transport\state_based_mqtt_provider.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\transport\state_based_mqtt_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 22
+  syntax:
+    content: subscribe(topic, callback=None)
+    parameters:
+    - id: topic
+    - defaultValue: None
+      id: callback
+  type: method
+  uid: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.subscribe
+- class: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
+  fullName: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.unsubscribe
+  langs:
+  - python
+  module: azure.iot.device.provisioning.transport.state_based_mqtt_provider
+  name: unsubscribe(topic, callback=None)
+  source:
+    id: unsubscribe
+    path: azure-iot-device\azure\iot\device\provisioning\transport\state_based_mqtt_provider.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\transport\state_based_mqtt_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 25
+  syntax:
+    content: unsubscribe(topic, callback=None)
+    parameters:
+    - id: topic
+    - defaultValue: None
+      id: callback
+  type: method
+  uid: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.unsubscribe
+references:
+- fullName: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.connect
+  isExternal: false
+  name: connect(callback=None)
+  parent: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
+  uid: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.connect
+- fullName: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.disconnect
+  isExternal: false
+  name: disconnect(callback=None)
+  parent: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
+  uid: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.disconnect
+- fullName: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.publish
+  isExternal: false
+  name: publish(topic, message, callback=None)
+  parent: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
+  uid: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.publish
+- fullName: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.subscribe
+  isExternal: false
+  name: subscribe(topic, callback=None)
+  parent: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
+  uid: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.subscribe
+- fullName: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.unsubscribe
+  isExternal: false
+  name: unsubscribe(topic, callback=None)
+  parent: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
+  uid: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider.unsubscribe

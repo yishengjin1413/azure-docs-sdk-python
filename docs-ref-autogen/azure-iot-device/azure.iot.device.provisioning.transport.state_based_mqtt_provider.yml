@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
+  fullName: azure.iot.device.provisioning.transport.state_based_mqtt_provider
+  langs:
+  - python
+  module: azure.iot.device.provisioning.transport.state_based_mqtt_provider
+  name: state_based_mqtt_provider
+  source:
+    id: state_based_mqtt_provider
+    path: azure-iot-device\azure\iot\device\provisioning\transport\state_based_mqtt_provider.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\transport\state_based_mqtt_provider.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 0
+  type: module
+  uid: azure.iot.device.provisioning.transport.state_based_mqtt_provider
+references:
+- fullName: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
+  isExternal: false
+  name: StateBasedMQTTProvider
+  parent: azure.iot.device.provisioning.transport.state_based_mqtt_provider
+  uid: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider

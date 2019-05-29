@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.provisioning.sk_provisioning_device_client.SymmetricKeyProvisioningDeviceClient
+  fullName: azure.iot.device.provisioning.sk_provisioning_device_client
+  langs:
+  - python
+  module: azure.iot.device.provisioning.sk_provisioning_device_client
+  name: sk_provisioning_device_client
+  source:
+    id: sk_provisioning_device_client
+    path: azure-iot-device\azure\iot\device\provisioning\sk_provisioning_device_client.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\sk_provisioning_device_client.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 0
+  summary: This module contains one of the implementations of the Provisioning Device
+    Client which uses Symmetric Key authentication.
+  type: module
+  uid: azure.iot.device.provisioning.sk_provisioning_device_client
+references:
+- fullName: azure.iot.device.provisioning.sk_provisioning_device_client.SymmetricKeyProvisioningDeviceClient
+  isExternal: false
+  name: SymmetricKeyProvisioningDeviceClient
+  parent: azure.iot.device.provisioning.sk_provisioning_device_client
+  uid: azure.iot.device.provisioning.sk_provisioning_device_client.SymmetricKeyProvisioningDeviceClient

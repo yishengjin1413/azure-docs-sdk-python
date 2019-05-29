@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.iot.device.provisioning.internal.action.Action
+  - azure.iot.device.provisioning.internal.action.PublishAction
+  - azure.iot.device.provisioning.internal.action.SubscribeAction
+  - azure.iot.device.provisioning.internal.action.UnsubscribeAction
+  fullName: azure.iot.device.provisioning.internal.action
+  langs:
+  - python
+  module: azure.iot.device.provisioning.internal.action
+  name: action
+  source:
+    id: action
+    path: azure-iot-device\azure\iot\device\provisioning\internal\action.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\internal\action.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 0
+  type: module
+  uid: azure.iot.device.provisioning.internal.action
+references:
+- fullName: azure.iot.device.provisioning.internal.action.Action
+  isExternal: false
+  name: Action
+  parent: azure.iot.device.provisioning.internal.action
+  uid: azure.iot.device.provisioning.internal.action.Action
+- fullName: azure.iot.device.provisioning.internal.action.PublishAction
+  isExternal: false
+  name: PublishAction
+  parent: azure.iot.device.provisioning.internal.action
+  uid: azure.iot.device.provisioning.internal.action.PublishAction
+- fullName: azure.iot.device.provisioning.internal.action.SubscribeAction
+  isExternal: false
+  name: SubscribeAction
+  parent: azure.iot.device.provisioning.internal.action
+  uid: azure.iot.device.provisioning.internal.action.SubscribeAction
+- fullName: azure.iot.device.provisioning.internal.action.UnsubscribeAction
+  isExternal: false
+  name: UnsubscribeAction
+  parent: azure.iot.device.provisioning.internal.action
+  uid: azure.iot.device.provisioning.internal.action.UnsubscribeAction

@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.provisioning.internal.action.PublishAction
+  fullName: azure.iot.device.provisioning.internal.action.PublishAction
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: azure.iot.device.provisioning.internal.action.Action
+  langs:
+  - python
+  module: azure.iot.device.provisioning.internal.action
+  name: PublishAction
+  source:
+    id: PublishAction
+    path: azure-iot-device\azure\iot\device\provisioning\internal\action.py
+    remote:
+      branch: master
+      path: azure-iot-device\azure\iot\device\provisioning\internal\action.py
+      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+    startLine: 23
+  summary: StateBasedProviderAction object used to publish
+  syntax:
+    content: PublishAction(publish_topic, message, callback)
+  type: class
+  uid: azure.iot.device.provisioning.internal.action.PublishAction
+references: []
