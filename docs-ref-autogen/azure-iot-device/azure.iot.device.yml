@@ -12,7 +12,6 @@ items:
   - azure.iot.device.RegistrationResult
   - azure.iot.device.create_from_security_client
   - azure.iot.device.aio
-  - azure.iot.device.provisioning
   fullName: azure.iot.device
   kind: import
   langs:
@@ -125,8 +124,3 @@ references:
   name: aio
   parent: azure.iot.device
   uid: azure.iot.device.aio
-- fullName: azure.iot.device.provisioning
-  isExternal: false
-  name: provisioning
-  parent: azure.iot.device
-  uid: azure.iot.device.provisioning
