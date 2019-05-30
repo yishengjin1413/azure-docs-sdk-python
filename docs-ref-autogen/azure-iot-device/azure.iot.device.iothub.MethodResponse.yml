@@ -2,14 +2,14 @@
 api_name: []
 items:
 - children:
-  - azure.iot.device.MethodResponse.create_from_method_request
-  class: azure.iot.device.MethodResponse
-  fullName: azure.iot.device.MethodResponse
+  - azure.iot.device.iothub.MethodResponse.create_from_method_request
+  class: azure.iot.device.iothub.MethodResponse
+  fullName: azure.iot.device.iothub.MethodResponse
   inheritance:
   - type: builtins.object
   langs:
   - python
-  module: azure.iot.device
+  module: azure.iot.device.iothub
   name: MethodResponse
   source:
     id: MethodResponse
@@ -34,12 +34,12 @@ items:
     - description: The JSON payload to be sent with the response.
       id: payload
   type: class
-  uid: azure.iot.device.MethodResponse
-- class: azure.iot.device.MethodResponse
-  fullName: azure.iot.device.MethodResponse.create_from_method_request
+  uid: azure.iot.device.iothub.MethodResponse
+- class: azure.iot.device.iothub.MethodResponse
+  fullName: azure.iot.device.iothub.MethodResponse.create_from_method_request
   langs:
   - python
-  module: azure.iot.device
+  module: azure.iot.device.iothub
   name: create_from_method_request(method_request, status, payload=None)
   source:
     id: create_from_method_request
@@ -65,10 +65,10 @@ items:
     - defaultValue: None
       id: payload
   type: method
-  uid: azure.iot.device.MethodResponse.create_from_method_request
+  uid: azure.iot.device.iothub.MethodResponse.create_from_method_request
 references:
-- fullName: azure.iot.device.MethodResponse.create_from_method_request
+- fullName: azure.iot.device.iothub.MethodResponse.create_from_method_request
   isExternal: false
   name: create_from_method_request(method_request, status, payload=None)
-  parent: azure.iot.device.MethodResponse
-  uid: azure.iot.device.MethodResponse.create_from_method_request
+  parent: azure.iot.device.iothub.MethodResponse
+  uid: azure.iot.device.iothub.MethodResponse.create_from_method_request

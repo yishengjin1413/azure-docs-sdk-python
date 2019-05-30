@@ -2,13 +2,13 @@
 api_name: []
 items:
 - children: []
-  class: azure.iot.device.Message
-  fullName: azure.iot.device.Message
+  class: azure.iot.device.iothub.Message
+  fullName: azure.iot.device.iothub.Message
   inheritance:
   - type: builtins.object
   langs:
   - python
-  module: azure.iot.device
+  module: azure.iot.device.iothub
   name: Message
   source:
     id: Message
@@ -64,5 +64,5 @@ items:
     - description: Name of the output that the is being sent to.
       id: output_name
   type: class
-  uid: azure.iot.device.Message
+  uid: azure.iot.device.iothub.Message
 references: []

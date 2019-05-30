@@ -1,10 +1,8 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - azure.iot.device
+- children: []
   fullName: azure.iot
-  kind: import
   langs:
   - python
   module: azure.iot
@@ -17,11 +15,6 @@ items:
       path: null
       repo: https://github.com/Azure/azure-iot-sdk-python-preview
     startLine: null
-  type: package
+  type: module
   uid: azure.iot
-references:
-- fullName: azure.iot.device
-  isExternal: false
-  name: device
-  parent: azure.iot
-  uid: azure.iot.device
+references: []

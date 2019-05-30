@@ -2,10 +2,10 @@
 api_name: []
 items:
 - children:
-  - azure.iot.device.IoTHubModuleClient.receive_input_message
-  - azure.iot.device.IoTHubModuleClient.send_to_output
-  class: azure.iot.device.IoTHubModuleClient
-  fullName: azure.iot.device.IoTHubModuleClient
+  - azure.iot.device.iothub.sync_clients.IoTHubModuleClient.receive_input_message
+  - azure.iot.device.iothub.sync_clients.IoTHubModuleClient.send_to_output
+  class: azure.iot.device.iothub.sync_clients.IoTHubModuleClient
+  fullName: azure.iot.device.iothub.sync_clients.IoTHubModuleClient
   inheritance:
   - inheritance:
     - inheritance:
@@ -19,7 +19,7 @@ items:
     type: azure.iot.device.iothub.abstract_clients.AbstractIoTHubModuleClient
   langs:
   - python
-  module: azure.iot.device
+  module: azure.iot.device.iothub.sync_clients
   name: IoTHubModuleClient
   source:
     id: IoTHubModuleClient
@@ -37,12 +37,12 @@ items:
   syntax:
     content: IoTHubModuleClient(pipeline)
   type: class
-  uid: azure.iot.device.IoTHubModuleClient
-- class: azure.iot.device.IoTHubModuleClient
-  fullName: azure.iot.device.IoTHubModuleClient.receive_input_message
+  uid: azure.iot.device.iothub.sync_clients.IoTHubModuleClient
+- class: azure.iot.device.iothub.sync_clients.IoTHubModuleClient
+  fullName: azure.iot.device.iothub.sync_clients.IoTHubModuleClient.receive_input_message
   langs:
   - python
-  module: azure.iot.device
+  module: azure.iot.device.iothub.sync_clients
   name: receive_input_message(input_name, block=True, timeout=None)
   source:
     id: receive_input_message
@@ -72,12 +72,12 @@ items:
     return:
       description: Message that was sent to the specified input.
   type: method
-  uid: azure.iot.device.IoTHubModuleClient.receive_input_message
-- class: azure.iot.device.IoTHubModuleClient
-  fullName: azure.iot.device.IoTHubModuleClient.send_to_output
+  uid: azure.iot.device.iothub.sync_clients.IoTHubModuleClient.receive_input_message
+- class: azure.iot.device.iothub.sync_clients.IoTHubModuleClient
+  fullName: azure.iot.device.iothub.sync_clients.IoTHubModuleClient.send_to_output
   langs:
   - python
-  module: azure.iot.device
+  module: azure.iot.device.iothub.sync_clients
   name: send_to_output(message, output_name)
   source:
     id: send_to_output
@@ -117,15 +117,15 @@ items:
       id: message
     - id: output_name
   type: method
-  uid: azure.iot.device.IoTHubModuleClient.send_to_output
+  uid: azure.iot.device.iothub.sync_clients.IoTHubModuleClient.send_to_output
 references:
-- fullName: azure.iot.device.IoTHubModuleClient.receive_input_message
+- fullName: azure.iot.device.iothub.sync_clients.IoTHubModuleClient.receive_input_message
   isExternal: false
   name: receive_input_message(input_name, block=True, timeout=None)
-  parent: azure.iot.device.IoTHubModuleClient
-  uid: azure.iot.device.IoTHubModuleClient.receive_input_message
-- fullName: azure.iot.device.IoTHubModuleClient.send_to_output
+  parent: azure.iot.device.iothub.sync_clients.IoTHubModuleClient
+  uid: azure.iot.device.iothub.sync_clients.IoTHubModuleClient.receive_input_message
+- fullName: azure.iot.device.iothub.sync_clients.IoTHubModuleClient.send_to_output
   isExternal: false
   name: send_to_output(message, output_name)
-  parent: azure.iot.device.IoTHubModuleClient
-  uid: azure.iot.device.IoTHubModuleClient.send_to_output
+  parent: azure.iot.device.iothub.sync_clients.IoTHubModuleClient
+  uid: azure.iot.device.iothub.sync_clients.IoTHubModuleClient.send_to_output

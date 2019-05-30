@@ -1,109 +1,153 @@
 - items:
   - items:
-    - items:
-      - items:
-        - name: azure.iot.device.aio
-          uid: azure.iot.device.aio
-        - items:
-          - items:
-            - items:
-              - name: azure.iot.device.provisioning.internal.action.Action
-                uid: azure.iot.device.provisioning.internal.action.Action
-              - name: azure.iot.device.provisioning.internal.action.PublishAction
-                uid: azure.iot.device.provisioning.internal.action.PublishAction
-              - name: azure.iot.device.provisioning.internal.action.SubscribeAction
-                uid: azure.iot.device.provisioning.internal.action.SubscribeAction
-              - name: azure.iot.device.provisioning.internal.action.UnsubscribeAction
-                uid: azure.iot.device.provisioning.internal.action.UnsubscribeAction
-              name: azure.iot.device.provisioning.internal.action
-              uid: azure.iot.device.provisioning.internal.action
-            - items:
-              - name: azure.iot.device.provisioning.internal.polling_machine.PollingMachine
-                uid: azure.iot.device.provisioning.internal.polling_machine.PollingMachine
-              name: azure.iot.device.provisioning.internal.polling_machine
-              uid: azure.iot.device.provisioning.internal.polling_machine
-            - items:
-              - name: azure.iot.device.provisioning.internal.registration_query_status_result.RegistrationQueryStatusResult
-                uid: azure.iot.device.provisioning.internal.registration_query_status_result.RegistrationQueryStatusResult
-              name: azure.iot.device.provisioning.internal.registration_query_status_result
-              uid: azure.iot.device.provisioning.internal.registration_query_status_result
-            - items:
-              - name: azure.iot.device.provisioning.internal.request_response_provider.RequestResponseProvider
-                uid: azure.iot.device.provisioning.internal.request_response_provider.RequestResponseProvider
-              name: azure.iot.device.provisioning.internal.request_response_provider
-              uid: azure.iot.device.provisioning.internal.request_response_provider
-            name: azure.iot.device.provisioning.internal
-            uid: azure.iot.device.provisioning.internal
-          - items:
-            - items:
-              - name: azure.iot.device.provisioning.models.registration_result.RegistrationResult
-                uid: azure.iot.device.provisioning.models.registration_result.RegistrationResult
-              - name: azure.iot.device.provisioning.models.registration_result.RegistrationState
-                uid: azure.iot.device.provisioning.models.registration_result.RegistrationState
-              name: azure.iot.device.provisioning.models.registration_result
-              uid: azure.iot.device.provisioning.models.registration_result
-            name: azure.iot.device.provisioning.models
-            uid: azure.iot.device.provisioning.models
-          - items:
-            - name: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
-              uid: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
-            name: azure.iot.device.provisioning.provisioning_device_client
-            uid: azure.iot.device.provisioning.provisioning_device_client
-          - name: azure.iot.device.provisioning.provisioning_device_client_factory
-            uid: azure.iot.device.provisioning.provisioning_device_client_factory
-          - items:
-            - items:
-              - name: azure.iot.device.provisioning.security.sk_security_client.SymmetricKeySecurityClient
-                uid: azure.iot.device.provisioning.security.sk_security_client.SymmetricKeySecurityClient
-              name: azure.iot.device.provisioning.security.sk_security_client
-              uid: azure.iot.device.provisioning.security.sk_security_client
-            name: azure.iot.device.provisioning.security
-            uid: azure.iot.device.provisioning.security
-          - items:
-            - name: azure.iot.device.provisioning.sk_provisioning_device_client.SymmetricKeyProvisioningDeviceClient
-              uid: azure.iot.device.provisioning.sk_provisioning_device_client.SymmetricKeyProvisioningDeviceClient
-            name: azure.iot.device.provisioning.sk_provisioning_device_client
-            uid: azure.iot.device.provisioning.sk_provisioning_device_client
-          - items:
-            - name: azure.iot.device.provisioning.transport.constant
-              uid: azure.iot.device.provisioning.transport.constant
-            - items:
-              - name: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
-                uid: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
-              name: azure.iot.device.provisioning.transport.state_based_mqtt_provider
-              uid: azure.iot.device.provisioning.transport.state_based_mqtt_provider
-            name: azure.iot.device.provisioning.transport
-            uid: azure.iot.device.provisioning.transport
-          - name: azure.iot.device.provisioning.RegistrationResult
-            uid: azure.iot.device.provisioning.RegistrationResult
-          - name: azure.iot.device.provisioning.SymmetricKeyProvisioningDeviceClient
-            uid: azure.iot.device.provisioning.SymmetricKeyProvisioningDeviceClient
-          - name: azure.iot.device.provisioning.SymmetricKeySecurityClient
-            uid: azure.iot.device.provisioning.SymmetricKeySecurityClient
-          name: azure.iot.device.provisioning
-          uid: azure.iot.device.provisioning
-        - name: azure.iot.device.InboxEmpty
-          uid: azure.iot.device.InboxEmpty
-        - name: azure.iot.device.IoTHubDeviceClient
-          uid: azure.iot.device.IoTHubDeviceClient
-        - name: azure.iot.device.IoTHubModuleClient
-          uid: azure.iot.device.IoTHubModuleClient
-        - name: azure.iot.device.Message
-          uid: azure.iot.device.Message
-        - name: azure.iot.device.MethodResponse
-          uid: azure.iot.device.MethodResponse
-        - name: azure.iot.device.RegistrationResult
-          uid: azure.iot.device.RegistrationResult
-        - name: azure.iot.device.SymmetricKeyProvisioningDeviceClient
-          uid: azure.iot.device.SymmetricKeyProvisioningDeviceClient
-        - name: azure.iot.device.SymmetricKeySecurityClient
-          uid: azure.iot.device.SymmetricKeySecurityClient
-        name: azure.iot.device
-        uid: azure.iot.device
-      name: azure.iot
+    - name: azure.iot
       uid: azure.iot
     name: azure
     uid: azure
+  - items:
+    - items:
+      - name: azure.iot.device.iothub.abstract_clients.AbstractIoTHubClient
+        uid: azure.iot.device.iothub.abstract_clients.AbstractIoTHubClient
+      - name: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient
+        uid: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient
+      - name: azure.iot.device.iothub.abstract_clients.AbstractIoTHubModuleClient
+        uid: azure.iot.device.iothub.abstract_clients.AbstractIoTHubModuleClient
+      name: azure.iot.device.iothub.abstract_clients
+      uid: azure.iot.device.iothub.abstract_clients
+    - items:
+      - items:
+        - name: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+          uid: azure.iot.device.iothub.aio.async_clients.GenericIoTHubClient
+        - name: azure.iot.device.iothub.aio.async_clients.IoTHubDeviceClient
+          uid: azure.iot.device.iothub.aio.async_clients.IoTHubDeviceClient
+        - name: azure.iot.device.iothub.aio.async_clients.IoTHubModuleClient
+          uid: azure.iot.device.iothub.aio.async_clients.IoTHubModuleClient
+        name: azure.iot.device.iothub.aio.async_clients
+        uid: azure.iot.device.iothub.aio.async_clients
+      - items:
+        - name: azure.iot.device.iothub.aio.async_inbox.AsyncClientInbox
+          uid: azure.iot.device.iothub.aio.async_inbox.AsyncClientInbox
+        name: azure.iot.device.iothub.aio.async_inbox
+        uid: azure.iot.device.iothub.aio.async_inbox
+      - name: azure.iot.device.iothub.aio.IoTHubDeviceClient
+        uid: azure.iot.device.iothub.aio.IoTHubDeviceClient
+      - name: azure.iot.device.iothub.aio.IoTHubModuleClient
+        uid: azure.iot.device.iothub.aio.IoTHubModuleClient
+      name: azure.iot.device.iothub.aio
+      uid: azure.iot.device.iothub.aio
+    - items:
+      - name: azure.iot.device.iothub.inbox_manager.InboxManager
+        uid: azure.iot.device.iothub.inbox_manager.InboxManager
+      name: azure.iot.device.iothub.inbox_manager
+      uid: azure.iot.device.iothub.inbox_manager
+    - items:
+      - name: azure.iot.device.iothub.sync_clients.GenericIoTHubClient
+        uid: azure.iot.device.iothub.sync_clients.GenericIoTHubClient
+      - name: azure.iot.device.iothub.sync_clients.IoTHubDeviceClient
+        uid: azure.iot.device.iothub.sync_clients.IoTHubDeviceClient
+      - name: azure.iot.device.iothub.sync_clients.IoTHubModuleClient
+        uid: azure.iot.device.iothub.sync_clients.IoTHubModuleClient
+      name: azure.iot.device.iothub.sync_clients
+      uid: azure.iot.device.iothub.sync_clients
+    - items:
+      - name: azure.iot.device.iothub.sync_inbox.AbstractInbox
+        uid: azure.iot.device.iothub.sync_inbox.AbstractInbox
+      - name: azure.iot.device.iothub.sync_inbox.InboxEmpty
+        uid: azure.iot.device.iothub.sync_inbox.InboxEmpty
+      - name: azure.iot.device.iothub.sync_inbox.SyncClientInbox
+        uid: azure.iot.device.iothub.sync_inbox.SyncClientInbox
+      name: azure.iot.device.iothub.sync_inbox
+      uid: azure.iot.device.iothub.sync_inbox
+    - name: azure.iot.device.iothub.InboxEmpty
+      uid: azure.iot.device.iothub.InboxEmpty
+    - name: azure.iot.device.iothub.IoTHubDeviceClient
+      uid: azure.iot.device.iothub.IoTHubDeviceClient
+    - name: azure.iot.device.iothub.IoTHubModuleClient
+      uid: azure.iot.device.iothub.IoTHubModuleClient
+    - name: azure.iot.device.iothub.Message
+      uid: azure.iot.device.iothub.Message
+    - name: azure.iot.device.iothub.MethodResponse
+      uid: azure.iot.device.iothub.MethodResponse
+    name: azure.iot.device.iothub
+    uid: azure.iot.device.iothub
+  - items:
+    - items:
+      - items:
+        - name: azure.iot.device.provisioning.internal.action.Action
+          uid: azure.iot.device.provisioning.internal.action.Action
+        - name: azure.iot.device.provisioning.internal.action.PublishAction
+          uid: azure.iot.device.provisioning.internal.action.PublishAction
+        - name: azure.iot.device.provisioning.internal.action.SubscribeAction
+          uid: azure.iot.device.provisioning.internal.action.SubscribeAction
+        - name: azure.iot.device.provisioning.internal.action.UnsubscribeAction
+          uid: azure.iot.device.provisioning.internal.action.UnsubscribeAction
+        name: azure.iot.device.provisioning.internal.action
+        uid: azure.iot.device.provisioning.internal.action
+      - items:
+        - name: azure.iot.device.provisioning.internal.polling_machine.PollingMachine
+          uid: azure.iot.device.provisioning.internal.polling_machine.PollingMachine
+        name: azure.iot.device.provisioning.internal.polling_machine
+        uid: azure.iot.device.provisioning.internal.polling_machine
+      - items:
+        - name: azure.iot.device.provisioning.internal.registration_query_status_result.RegistrationQueryStatusResult
+          uid: azure.iot.device.provisioning.internal.registration_query_status_result.RegistrationQueryStatusResult
+        name: azure.iot.device.provisioning.internal.registration_query_status_result
+        uid: azure.iot.device.provisioning.internal.registration_query_status_result
+      - items:
+        - name: azure.iot.device.provisioning.internal.request_response_provider.RequestResponseProvider
+          uid: azure.iot.device.provisioning.internal.request_response_provider.RequestResponseProvider
+        name: azure.iot.device.provisioning.internal.request_response_provider
+        uid: azure.iot.device.provisioning.internal.request_response_provider
+      name: azure.iot.device.provisioning.internal
+      uid: azure.iot.device.provisioning.internal
+    - items:
+      - items:
+        - name: azure.iot.device.provisioning.models.registration_result.RegistrationResult
+          uid: azure.iot.device.provisioning.models.registration_result.RegistrationResult
+        - name: azure.iot.device.provisioning.models.registration_result.RegistrationState
+          uid: azure.iot.device.provisioning.models.registration_result.RegistrationState
+        name: azure.iot.device.provisioning.models.registration_result
+        uid: azure.iot.device.provisioning.models.registration_result
+      name: azure.iot.device.provisioning.models
+      uid: azure.iot.device.provisioning.models
+    - items:
+      - name: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+        uid: azure.iot.device.provisioning.provisioning_device_client.ProvisioningDeviceClient
+      name: azure.iot.device.provisioning.provisioning_device_client
+      uid: azure.iot.device.provisioning.provisioning_device_client
+    - name: azure.iot.device.provisioning.provisioning_device_client_factory
+      uid: azure.iot.device.provisioning.provisioning_device_client_factory
+    - items:
+      - items:
+        - name: azure.iot.device.provisioning.security.sk_security_client.SymmetricKeySecurityClient
+          uid: azure.iot.device.provisioning.security.sk_security_client.SymmetricKeySecurityClient
+        name: azure.iot.device.provisioning.security.sk_security_client
+        uid: azure.iot.device.provisioning.security.sk_security_client
+      name: azure.iot.device.provisioning.security
+      uid: azure.iot.device.provisioning.security
+    - items:
+      - name: azure.iot.device.provisioning.sk_provisioning_device_client.SymmetricKeyProvisioningDeviceClient
+        uid: azure.iot.device.provisioning.sk_provisioning_device_client.SymmetricKeyProvisioningDeviceClient
+      name: azure.iot.device.provisioning.sk_provisioning_device_client
+      uid: azure.iot.device.provisioning.sk_provisioning_device_client
+    - items:
+      - name: azure.iot.device.provisioning.transport.constant
+        uid: azure.iot.device.provisioning.transport.constant
+      - items:
+        - name: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
+          uid: azure.iot.device.provisioning.transport.state_based_mqtt_provider.StateBasedMQTTProvider
+        name: azure.iot.device.provisioning.transport.state_based_mqtt_provider
+        uid: azure.iot.device.provisioning.transport.state_based_mqtt_provider
+      name: azure.iot.device.provisioning.transport
+      uid: azure.iot.device.provisioning.transport
+    - name: azure.iot.device.provisioning.RegistrationResult
+      uid: azure.iot.device.provisioning.RegistrationResult
+    - name: azure.iot.device.provisioning.SymmetricKeyProvisioningDeviceClient
+      uid: azure.iot.device.provisioning.SymmetricKeyProvisioningDeviceClient
+    - name: azure.iot.device.provisioning.SymmetricKeySecurityClient
+      uid: azure.iot.device.provisioning.SymmetricKeySecurityClient
+    name: azure.iot.device.provisioning
+    uid: azure.iot.device.provisioning
   name: azure-iot-device
   uid: project-azure-iot-device
 
