@@ -13,7 +13,7 @@ items:
     id: azure
     path: null
     remote:
-      branch: master
+      branch: ct-docgen
       path: null
       repo: https://github.com/Azure/azure-iot-sdk-python-preview
     startLine: null

@@ -25,17 +25,17 @@ items:
     id: IoTHubModuleClient
     path: azure-iot-device\azure\iot\device\iothub\sync_clients.py
     remote:
-      branch: master
+      branch: ct-docgen
       path: azure-iot-device\azure\iot\device\iothub\sync_clients.py
       repo: https://github.com/Azure/azure-iot-sdk-python-preview
-    startLine: 278
+    startLine: 223
   summary: 'A synchronous module client that connects to an Azure IoT Hub or Azure
     IoT Edge instance.
 
 
     Intended for usage with Python 2.7 or compatibility scenarios for Python 3.5.3+.'
   syntax:
-    content: IoTHubModuleClient(pipeline)
+    content: IoTHubModuleClient(transport)
   type: class
   uid: azure.iot.device.IoTHubModuleClient
 - class: azure.iot.device.IoTHubModuleClient
@@ -48,10 +48,10 @@ items:
     id: receive_input_message
     path: azure-iot-device\azure\iot\device\iothub\sync_clients.py
     remote:
-      branch: master
+      branch: ct-docgen
       path: azure-iot-device\azure\iot\device\iothub\sync_clients.py
       repo: https://github.com/Azure/azure-iot-sdk-python-preview
-    startLine: 324
+    startLine: 271
   summary: 'Receive an input message that has been sent from another Module to a specific
     input.
 
@@ -83,10 +83,10 @@ items:
     id: send_to_output
     path: azure-iot-device\azure\iot\device\iothub\sync_clients.py
     remote:
-      branch: master
+      branch: ct-docgen
       path: azure-iot-device\azure\iot\device\iothub\sync_clients.py
       repo: https://github.com/Azure/azure-iot-sdk-python-preview
-    startLine: 295
+    startLine: 242
   summary: 'Sends an event/message to the given module output.
 
 

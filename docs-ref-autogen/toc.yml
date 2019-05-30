@@ -2,7 +2,12 @@
   - items:
     - items:
       - items:
-        - name: azure.iot.device.aio
+        - items:
+          - name: azure.iot.device.aio.IoTHubDeviceClient
+            uid: azure.iot.device.aio.IoTHubDeviceClient
+          - name: azure.iot.device.aio.IoTHubModuleClient
+            uid: azure.iot.device.aio.IoTHubModuleClient
+          name: azure.iot.device.aio
           uid: azure.iot.device.aio
         - name: azure.iot.device.InboxEmpty
           uid: azure.iot.device.InboxEmpty
@@ -12,14 +17,6 @@
           uid: azure.iot.device.IoTHubModuleClient
         - name: azure.iot.device.Message
           uid: azure.iot.device.Message
-        - name: azure.iot.device.MethodResponse
-          uid: azure.iot.device.MethodResponse
-        - name: azure.iot.device.RegistrationResult
-          uid: azure.iot.device.RegistrationResult
-        - name: azure.iot.device.SymmetricKeyProvisioningDeviceClient
-          uid: azure.iot.device.SymmetricKeyProvisioningDeviceClient
-        - name: azure.iot.device.SymmetricKeySecurityClient
-          uid: azure.iot.device.SymmetricKeySecurityClient
         name: azure.iot.device
         uid: azure.iot.device
       name: azure.iot
