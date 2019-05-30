@@ -2,8 +2,6 @@
 items:
 - children:
   - azure
-  - azure.iot.device.iothub
-  - azure.iot.device.provisioning
   fullName: azure-iot-device
   kind: distribution
   langs:
@@ -17,11 +15,3 @@ references:
   isExternal: false
   name: azure
   uid: azure
-- fullname: azure.iot.device.iothub
-  isExternal: false
-  name: azure.iot.device.iothub
-  uid: azure.iot.device.iothub
-- fullname: azure.iot.device.provisioning
-  isExternal: false
-  name: azure.iot.device.provisioning
-  uid: azure.iot.device.provisioning

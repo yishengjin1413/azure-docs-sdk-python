@@ -2,9 +2,9 @@
 api_name: []
 items:
 - children:
-  - azure.iot.device.iothub.IoTHubDeviceClient.receive_c2d_message
-  class: azure.iot.device.iothub.IoTHubDeviceClient
-  fullName: azure.iot.device.iothub.IoTHubDeviceClient
+  - azure.iot.device.IoTHubDeviceClient.receive_c2d_message
+  class: azure.iot.device.IoTHubDeviceClient
+  fullName: azure.iot.device.IoTHubDeviceClient
   inheritance:
   - inheritance:
     - inheritance:
@@ -18,7 +18,7 @@ items:
     type: azure.iot.device.iothub.abstract_clients.AbstractIoTHubDeviceClient
   langs:
   - python
-  module: azure.iot.device.iothub
+  module: azure.iot.device
   name: IoTHubDeviceClient
   source:
     id: IoTHubDeviceClient
@@ -27,7 +27,7 @@ items:
       branch: master
       path: azure-iot-device\azure\iot\device\iothub\sync_clients.py
       repo: https://github.com/Azure/azure-iot-sdk-python-preview
-    startLine: 187
+    startLine: 239
   summary: 'A synchronous device client that connects to an Azure IoT Hub instance.
 
 
@@ -35,12 +35,12 @@ items:
   syntax:
     content: IoTHubDeviceClient(pipeline)
   type: class
-  uid: azure.iot.device.iothub.IoTHubDeviceClient
-- class: azure.iot.device.iothub.IoTHubDeviceClient
-  fullName: azure.iot.device.iothub.IoTHubDeviceClient.receive_c2d_message
+  uid: azure.iot.device.IoTHubDeviceClient
+- class: azure.iot.device.IoTHubDeviceClient
+  fullName: azure.iot.device.IoTHubDeviceClient.receive_c2d_message
   langs:
   - python
-  module: azure.iot.device.iothub
+  module: azure.iot.device
   name: receive_c2d_message(block=True, timeout=None)
   source:
     id: receive_c2d_message
@@ -49,7 +49,7 @@ items:
       branch: master
       path: azure-iot-device\azure\iot\device\iothub\sync_clients.py
       repo: https://github.com/Azure/azure-iot-sdk-python-preview
-    startLine: 204
+    startLine: 256
   summary: 'Receive a C2D message that has been sent from the Azure IoT Hub.
 
 
@@ -68,10 +68,10 @@ items:
     return:
       description: Message that was sent from the Azure IoT Hub.
   type: method
-  uid: azure.iot.device.iothub.IoTHubDeviceClient.receive_c2d_message
+  uid: azure.iot.device.IoTHubDeviceClient.receive_c2d_message
 references:
-- fullName: azure.iot.device.iothub.IoTHubDeviceClient.receive_c2d_message
+- fullName: azure.iot.device.IoTHubDeviceClient.receive_c2d_message
   isExternal: false
   name: receive_c2d_message(block=True, timeout=None)
-  parent: azure.iot.device.iothub.IoTHubDeviceClient
-  uid: azure.iot.device.iothub.IoTHubDeviceClient.receive_c2d_message
+  parent: azure.iot.device.IoTHubDeviceClient
+  uid: azure.iot.device.IoTHubDeviceClient.receive_c2d_message

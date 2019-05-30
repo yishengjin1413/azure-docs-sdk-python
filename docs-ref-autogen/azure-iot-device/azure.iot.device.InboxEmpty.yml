@@ -2,8 +2,8 @@
 api_name: []
 items:
 - children: []
-  class: azure.iot.device.iothub.sync_inbox.InboxEmpty
-  fullName: azure.iot.device.iothub.sync_inbox.InboxEmpty
+  class: azure.iot.device.InboxEmpty
+  fullName: azure.iot.device.InboxEmpty
   inheritance:
   - inheritance:
     - inheritance:
@@ -12,7 +12,7 @@ items:
     type: builtins.Exception
   langs:
   - python
-  module: azure.iot.device.iothub.sync_inbox
+  module: azure.iot.device
   name: InboxEmpty
   source:
     id: InboxEmpty
@@ -24,5 +24,5 @@ items:
     startLine: 13
   syntax: {}
   type: class
-  uid: azure.iot.device.iothub.sync_inbox.InboxEmpty
+  uid: azure.iot.device.InboxEmpty
 references: []
