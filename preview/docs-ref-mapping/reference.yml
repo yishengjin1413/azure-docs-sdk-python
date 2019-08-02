@@ -1,0 +1,9 @@
+- name: Reference
+  uid: azure.python.sdk.landingPage.reference
+  landingPageType: Root
+  expanded: true
+  items:
+  - name: Other
+    uid: azure.python.sdk.landingPage.services.other
+    children:
+    - '*'
