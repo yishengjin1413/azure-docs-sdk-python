@@ -5,7 +5,11 @@ items:
   - azure.iot.device.IoTHubDeviceClient
   - azure.iot.device.IoTHubModuleClient
   - azure.iot.device.Message
+  - azure.iot.device.MethodRequest
+  - azure.iot.device.MethodResponse
   - azure.iot.device.InboxEmpty
+  - azure.iot.device.ProvisioningDeviceClient
+  - azure.iot.device.RegistrationResult
   - azure.iot.device.aio
   fullName: azure.iot.device
   kind: import
@@ -17,9 +21,9 @@ items:
     id: device
     path: azure-iot-device\azure\iot\device\__init__.py
     remote:
-      branch: ct-docgen
+      branch: ct-doc-revisions
       path: azure-iot-device\azure\iot\device\__init__.py
-      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+      repo: https://github.com/Azure/azure-iot-sdk-python/
     startLine: 0
   summary: 'Azure IoT Device Library
 
@@ -47,11 +51,31 @@ references:
   name: Message
   parent: azure.iot.device
   uid: azure.iot.device.Message
+- fullName: azure.iot.device.MethodRequest
+  isExternal: false
+  name: MethodRequest
+  parent: azure.iot.device
+  uid: azure.iot.device.MethodRequest
+- fullName: azure.iot.device.MethodResponse
+  isExternal: false
+  name: MethodResponse
+  parent: azure.iot.device
+  uid: azure.iot.device.MethodResponse
 - fullName: azure.iot.device.InboxEmpty
   isExternal: false
   name: InboxEmpty
   parent: azure.iot.device
   uid: azure.iot.device.InboxEmpty
+- fullName: azure.iot.device.ProvisioningDeviceClient
+  isExternal: false
+  name: ProvisioningDeviceClient
+  parent: azure.iot.device
+  uid: azure.iot.device.ProvisioningDeviceClient
+- fullName: azure.iot.device.RegistrationResult
+  isExternal: false
+  name: RegistrationResult
+  parent: azure.iot.device
+  uid: azure.iot.device.RegistrationResult
 - fullName: azure.iot.device.aio
   isExternal: false
   name: aio

@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.iot.device.MethodRequest
+  fullName: azure.iot.device.MethodRequest
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.iot.device
+  name: MethodRequest
+  source:
+    id: MethodRequest
+    path: azure-iot-device\azure\iot\device\iothub\models\methods.py
+    remote:
+      branch: ct-doc-revisions
+      path: azure-iot-device\azure\iot\device\iothub\models\methods.py
+      repo: https://github.com/Azure/azure-iot-sdk-python/
+    startLine: 10
+  summary: Represents a request to invoke a direct method.
+  syntax:
+    content: MethodRequest(request_id, name, payload)
+    variables:
+    - description: The request id.
+      id: request_id
+      type:
+      - str
+    - description: The name of the method to be invoked.
+      id: name
+      type:
+      - str
+    - description: The JSON payload being sent with the request.
+      id: payload
+      type:
+      - dict
+  type: class
+  uid: azure.iot.device.MethodRequest
+references: []

@@ -1,7 +1,8 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children: []
+- children:
+  - azure.iot.device.Message.set_as_security_message
   class: azure.iot.device.Message
   fullName: azure.iot.device.Message
   inheritance:
@@ -14,13 +15,14 @@ items:
     id: Message
     path: azure-iot-device\azure\iot\device\iothub\models\message.py
     remote:
-      branch: ct-docgen
+      branch: ct-doc-revisions
       path: azure-iot-device\azure\iot\device\iothub\models\message.py
-      repo: https://github.com/Azure/azure-iot-sdk-python-preview
-    startLine: 14
+      repo: https://github.com/Azure/azure-iot-sdk-python/
+    startLine: 12
   summary: Represents a message to or from IoTHub
   syntax:
-    content: Message(data, message_id=None, content_encoding=None, content_type=None)
+    content: Message(data, message_id=None, content_encoding=None, content_type=None,
+      output_name=None)
     variables:
     - description: The data that constitutes the payload
       id: data
@@ -60,6 +62,36 @@ items:
     - description: Content type property used to route messages with the message-body.
         Can be 'application/json'
       id: content_type
+    - description: Name of the output that the is being sent to.
+      id: output_name
   type: class
   uid: azure.iot.device.Message
-references: []
+- class: azure.iot.device.Message
+  fullName: azure.iot.device.Message.set_as_security_message
+  langs:
+  - python
+  module: azure.iot.device
+  name: set_as_security_message()
+  source:
+    id: set_as_security_message
+    path: azure-iot-device\azure\iot\device\iothub\models\message.py
+    remote:
+      branch: ct-doc-revisions
+      path: azure-iot-device\azure\iot\device\iothub\models\message.py
+      repo: https://github.com/Azure/azure-iot-sdk-python/
+    startLine: 63
+  summary: 'Set the message as a security message.
+
+
+    This is a provisional API. Functionality not yet guaranteed.'
+  syntax:
+    content: set_as_security_message()
+    parameters: []
+  type: method
+  uid: azure.iot.device.Message.set_as_security_message
+references:
+- fullName: azure.iot.device.Message.set_as_security_message
+  isExternal: false
+  name: set_as_security_message()
+  parent: azure.iot.device.Message
+  uid: azure.iot.device.Message.set_as_security_message

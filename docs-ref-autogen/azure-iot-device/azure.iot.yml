@@ -13,9 +13,9 @@ items:
     id: iot
     path: null
     remote:
-      branch: ct-docgen
+      branch: ct-doc-revisions
       path: null
-      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+      repo: https://github.com/Azure/azure-iot-sdk-python/
     startLine: null
   type: package
   uid: azure.iot

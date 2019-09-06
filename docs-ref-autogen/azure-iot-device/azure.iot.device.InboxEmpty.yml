@@ -18,9 +18,9 @@ items:
     id: InboxEmpty
     path: azure-iot-device\azure\iot\device\iothub\sync_inbox.py
     remote:
-      branch: ct-docgen
+      branch: ct-doc-revisions
       path: azure-iot-device\azure\iot\device\iothub\sync_inbox.py
-      repo: https://github.com/Azure/azure-iot-sdk-python-preview
+      repo: https://github.com/Azure/azure-iot-sdk-python/
     startLine: 13
   syntax: {}
   type: class
