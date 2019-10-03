@@ -1,0 +1,19 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.core.tracing.ext.opencensus_span
+  fullName: azure.core.tracing.ext
+  kind: import
+  langs:
+  - python
+  module: azure.core.tracing.ext
+  name: ext
+  type: package
+  uid: azure.core.tracing.ext
+references:
+- fullName: azure.core.tracing.ext.opencensus_span
+  isExternal: false
+  name: opencensus_span
+  parent: azure.core.tracing.ext
+  uid: azure.core.tracing.ext.opencensus_span

@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.core.pipeline.transport.requests_trio.TrioRequestsTransport
+  - azure.core.pipeline.transport.requests_trio.TrioRequestsTransportResponse
+  - azure.core.pipeline.transport.requests_trio.TrioStreamDownloadGenerator
+  fullName: azure.core.pipeline.transport.requests_trio
+  langs:
+  - python
+  module: azure.core.pipeline.transport.requests_trio
+  name: requests_trio
+  type: module
+  uid: azure.core.pipeline.transport.requests_trio
+references:
+- fullName: azure.core.pipeline.transport.requests_trio.TrioRequestsTransport
+  isExternal: false
+  name: TrioRequestsTransport
+  parent: azure.core.pipeline.transport.requests_trio
+  uid: azure.core.pipeline.transport.requests_trio.TrioRequestsTransport
+- fullName: azure.core.pipeline.transport.requests_trio.TrioRequestsTransportResponse
+  isExternal: false
+  name: TrioRequestsTransportResponse
+  parent: azure.core.pipeline.transport.requests_trio
+  uid: azure.core.pipeline.transport.requests_trio.TrioRequestsTransportResponse
+- fullName: azure.core.pipeline.transport.requests_trio.TrioStreamDownloadGenerator
+  isExternal: false
+  name: TrioStreamDownloadGenerator
+  parent: azure.core.pipeline.transport.requests_trio
+  uid: azure.core.pipeline.transport.requests_trio.TrioStreamDownloadGenerator

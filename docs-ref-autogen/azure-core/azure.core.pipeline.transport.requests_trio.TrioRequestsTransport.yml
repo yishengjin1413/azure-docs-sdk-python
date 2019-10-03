@@ -1,0 +1,116 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.core.pipeline.transport.requests_trio.TrioRequestsTransport.send
+  - azure.core.pipeline.transport.requests_trio.TrioRequestsTransport.sleep
+  class: azure.core.pipeline.transport.requests_trio.TrioRequestsTransport
+  example:
+  - "Asynchronous transport with trio.<!--[!code-python[Main](ples\\test_example_async.py\
+    \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
+    dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\source_code\\\
+    \\0\\\\azure-core-1.0.0b3\\\\examples\\\\test_example_async.py\", \"xml:space\"\
+    : \"preserve\", \"language\": \"python\", \"linenos\": false, \"highlight_args\"\
+    : {\"linenostart\": 1}} -->\n\n````python\n\n       from azure.core.pipeline.transport\
+    \ import TrioRequestsTransport\n\n       async with AsyncPipeline(TrioRequestsTransport(),\
+    \ policies=policies) as pipeline:\n           return await pipeline.run(request)\n\
+    \n   ````\n"
+  fullName: azure.core.pipeline.transport.requests_trio.TrioRequestsTransport
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: abc.ABC
+        type: contextlib.AbstractContextManager
+      - inheritance:
+        - type: builtins.object
+        type: abc.ABC
+      - inheritance:
+        - type: builtins.object
+        type: typing.Generic
+      type: azure.core.pipeline.transport.base.HttpTransport
+    type: azure.core.pipeline.transport.requests_basic.RequestsTransport
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: azure.core.pipeline.transport.base_async.AbstractAsyncContextManager
+    - inheritance:
+      - type: builtins.object
+      type: abc.ABC
+    - inheritance:
+      - type: builtins.object
+      type: typing.Generic
+    type: azure.core.pipeline.transport.base_async.AsyncHttpTransport
+  langs:
+  - python
+  module: azure.core.pipeline.transport.requests_trio
+  name: TrioRequestsTransport
+  summary: 'Identical implementation as the synchronous RequestsTransport wrapped
+    in a class with
+
+    asynchronous methods. Uses the third party trio event loop.'
+  syntax:
+    content: TrioRequestsTransport(**kwargs)
+  type: class
+  uid: azure.core.pipeline.transport.requests_trio.TrioRequestsTransport
+- class: azure.core.pipeline.transport.requests_trio.TrioRequestsTransport
+  fullName: azure.core.pipeline.transport.requests_trio.TrioRequestsTransport.send
+  langs:
+  - python
+  module: azure.core.pipeline.transport.requests_trio
+  name: 'send(request: azure.core.pipeline.transport.base.HttpRequest, **kwargs: typing.Any)
+    -> azure.core.pipeline.transport.base_async.AsyncHttpResponse'
+  summary: 'Send the request using this HTTP sender.
+
+
+    **Keyword arguments:**
+
+
+    *session* - will override the driver session and use yours. Should NOT be done
+    unless really required.
+
+    Anything else is sent straight to requests.
+
+    *proxies* - will define the proxy to use. Proxy is a dict (protocol, url)'
+  syntax:
+    content: 'send(request: azure.core.pipeline.transport.base.HttpRequest, **kwargs:
+      typing.Any) -> azure.core.pipeline.transport.base_async.AsyncHttpResponse'
+    parameters:
+    - description: The HttpRequest
+      id: request
+      type:
+      - azure.core.pipeline.transport.HttpRequest
+    - description: Any keyword arguments
+      id: kwargs
+    return:
+      description: The AsyncHttpResponse
+      type:
+      - azure.core.pipeline.transport.AsyncHttpResponse
+  type: method
+  uid: azure.core.pipeline.transport.requests_trio.TrioRequestsTransport.send
+- class: azure.core.pipeline.transport.requests_trio.TrioRequestsTransport
+  fullName: azure.core.pipeline.transport.requests_trio.TrioRequestsTransport.sleep
+  langs:
+  - python
+  module: azure.core.pipeline.transport.requests_trio
+  name: sleep(duration)
+  syntax:
+    content: sleep(duration)
+    parameters:
+    - id: duration
+  type: method
+  uid: azure.core.pipeline.transport.requests_trio.TrioRequestsTransport.sleep
+references:
+- fullName: azure.core.pipeline.transport.requests_trio.TrioRequestsTransport.send
+  isExternal: false
+  name: 'send(request: azure.core.pipeline.transport.base.HttpRequest, **kwargs: typing.Any)
+    -> azure.core.pipeline.transport.base_async.AsyncHttpResponse'
+  parent: azure.core.pipeline.transport.requests_trio.TrioRequestsTransport
+  uid: azure.core.pipeline.transport.requests_trio.TrioRequestsTransport.send
+- fullName: azure.core.pipeline.transport.requests_trio.TrioRequestsTransport.sleep
+  isExternal: false
+  name: sleep(duration)
+  parent: azure.core.pipeline.transport.requests_trio.TrioRequestsTransport
+  uid: azure.core.pipeline.transport.requests_trio.TrioRequestsTransport.sleep

@@ -1,0 +1,90 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.core.configuration.Configuration
+  example:
+  - "Creates the service configuration and adds policies.<!--[!code-python[Main](ples\\\
+    test_example_config.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\":\
+    \ [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\\
+    a\\\\1\\\\s\\\\source_code\\\\0\\\\azure-core-1.0.0b3\\\\examples\\\\test_example_config.py\"\
+    , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
+    highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   from azure.core\
+    \ import Configuration\n   from azure.core.pipeline import Pipeline\n   from azure.core.pipeline.transport\
+    \ import RequestsTransport\n   from azure.core.pipeline.policies import (\n  \
+    \     HeadersPolicy,\n       BearerTokenCredentialPolicy,\n       UserAgentPolicy,\n\
+    \       RetryPolicy,\n       RedirectPolicy,\n       NetworkTraceLoggingPolicy,\n\
+    \       ProxyPolicy,\n       ContentDecodePolicy\n   )\n\n   # Example class to\
+    \ create configuration for a service client\n   class FooServiceClient():\n\n\
+    \       @staticmethod\n       def _create_config(credential, scopes, **kwargs):\n\
+    \           # Here the SDK developer would define the default\n           # config\
+    \ to interact with the service\n           config = Configuration(**kwargs)\n\
+    \           config.headers_policy = kwargs.get('headers_policy', HeadersPolicy({\"\
+    CustomHeader\": \"Value\"}, **kwargs))\n           config.user_agent_policy =\
+    \ kwargs.get('user_agent_policy', UserAgentPolicy(\"ServiceUserAgentValue\", **kwargs))\n\
+    \           config.authentication_policy = kwargs.get('authentication_policy',\
+    \ BearerTokenCredentialPolicy(credential, scopes, **kwargs))\n           config.retry_policy\
+    \ = kwargs.get('retry_policy', RetryPolicy(**kwargs))\n           config.redirect_policy\
+    \ = kwargs.get('redirect_policy', RedirectPolicy(**kwargs))\n           config.logging_policy\
+    \ = kwargs.get('logging_policy', NetworkTraceLoggingPolicy(**kwargs))\n      \
+    \     config.proxy_policy = kwargs.get('proxy_policy', ProxyPolicy(**kwargs))\n\
+    \           return config\n\n       def __init__(self, **kwargs):\n          \
+    \ transport = kwargs.get('transport', RequestsTransport(**kwargs))\n         \
+    \  config = FooServiceClient._create_config(**kwargs)\n           policies = [\n\
+    \               config.user_agent_policy,\n               config.headers_policy,\n\
+    \               config.authentication_policy,\n               ContentDecodePolicy(),\n\
+    \               config.proxy_policy,\n               config.redirect_policy,\n\
+    \               config.retry_policy,\n               config.logging_policy,\n\
+    \           ]\n           self._pipeline = Pipeline(transport, policies=policies)\n\
+    \n   ````\n"
+  fullName: azure.core.configuration.Configuration
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: azure.core.configuration
+  name: Configuration
+  summary: 'Provides the home for all of the configurable policies in the pipeline.
+
+
+    A new Configuration object provides no default policies and does not specify in
+    what
+
+    order the policies will be added to the pipeline. The SDK developer must specify
+    each
+
+    of the policy defaults as required by the service and use the policies in the
+
+    Configuration to construct the pipeline correctly, as well as inserting any
+
+    unexposed/non-configurable policies.'
+  syntax:
+    content: Configuration(**kwargs)
+    parameters:
+    - description: Provides parameters for custom or additional headers to be sent
+        with the request.
+      id: headers_policy
+    - description: Provides configuration parameters for proxy.
+      id: proxy_policy
+    - description: Provides configuration parameters for redirects.
+      id: redirect_policy
+    - description: Provides configuration parameters for retries in the pipeline.
+      id: retry_policy
+    - description: Provides configuration parameters for a custom hook.
+      id: custom_hook_policy
+    - description: Provides configuration parameters for logging.
+      id: logging_policy
+    - description: 'Provides configuration parameters to append custom values to the
+
+        User-Agent header.'
+      id: user_agent_policy
+    - description: 'Provides configuration parameters for adding a bearer token Authorization
+
+        header to requests.'
+      id: authentication_policy
+    - description: Polling interval while doing LRO operations, if Retry-After is
+        not set.
+      id: polling_interval
+  type: class
+  uid: azure.core.configuration.Configuration
+references: []

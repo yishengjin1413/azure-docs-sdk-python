@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.core.pipeline.transport.TrioRequestsTransportResponse.stream_download
+  class: azure.core.pipeline.transport.TrioRequestsTransportResponse
+  fullName: azure.core.pipeline.transport.TrioRequestsTransportResponse
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: azure.core.pipeline.transport.base._HttpResponseBase
+    type: azure.core.pipeline.transport.base_async.AsyncHttpResponse
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: azure.core.pipeline.transport.base._HttpResponseBase
+      type: azure.core.pipeline.transport.base.HttpResponse
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: azure.core.pipeline.transport.base._HttpResponseBase
+      type: azure.core.pipeline.transport.requests_basic._RequestsTransportResponseBase
+    type: azure.core.pipeline.transport.requests_basic.RequestsTransportResponse
+  langs:
+  - python
+  module: azure.core.pipeline.transport
+  name: TrioRequestsTransportResponse
+  summary: Asynchronous streaming of data from the response.
+  syntax:
+    content: TrioRequestsTransportResponse(request, requests_response, block_size=None)
+  type: class
+  uid: azure.core.pipeline.transport.TrioRequestsTransportResponse
+- class: azure.core.pipeline.transport.TrioRequestsTransportResponse
+  fullName: azure.core.pipeline.transport.TrioRequestsTransportResponse.stream_download
+  langs:
+  - python
+  module: azure.core.pipeline.transport
+  name: stream_download(pipeline) -> typing.AsyncIterator[bytes]
+  summary: Generator for streaming response data.
+  syntax:
+    content: stream_download(pipeline) -> typing.AsyncIterator[bytes]
+  type: method
+  uid: azure.core.pipeline.transport.TrioRequestsTransportResponse.stream_download
+references:
+- fullName: azure.core.pipeline.transport.TrioRequestsTransportResponse.stream_download
+  isExternal: false
+  name: stream_download(pipeline) -> typing.AsyncIterator[bytes]
+  parent: azure.core.pipeline.transport.TrioRequestsTransportResponse
+  uid: azure.core.pipeline.transport.TrioRequestsTransportResponse.stream_download
